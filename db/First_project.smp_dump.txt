@@ -1,0 +1,7 @@
+
+State Machine - |First_project|Humidity:Hum|mstate
+Name mstate.011 mstate.010 mstate.000 mstate.001 
+mstate.001 0 0 0 0 
+mstate.000 0 0 1 1 
+mstate.010 0 1 0 1 
+mstate.011 1 0 0 1 
