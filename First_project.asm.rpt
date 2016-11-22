@@ -1,5 +1,5 @@
 Assembler report for First_project
-Fri Nov 27 22:23:37 2015
+Tue Nov 22 21:12:24 2016
 Quartus II 64-Bit Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Full Version
 
 
@@ -9,10 +9,11 @@ Quartus II 64-Bit Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Full Versi
   1. Legal Notice
   2. Assembler Summary
   3. Assembler Settings
-  4. Assembler Generated Files
-  5. Assembler Device Options: C:/Smart_home/First_project.sof
-  6. Assembler Device Options: C:/Smart_home/First_project.pof
-  7. Assembler Messages
+  4. Assembler Encrypted IP Cores Summary
+  5. Assembler Generated Files
+  6. Assembler Device Options: C:/Smart_home/First_project.sof
+  7. Assembler Device Options: C:/Smart_home/First_project.pof
+  8. Assembler Messages
 
 
 
@@ -38,11 +39,11 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Nov 27 22:23:37 2015 ;
+; Assembler Status      ; Successful - Tue Nov 22 21:12:24 2016 ;
 ; Revision Name         ; First_project                         ;
 ; Top-level Entity Name ; First_project                         ;
-; Family                ; Cyclone IV E                          ;
-; Device                ; EP4CE6E22C8                           ;
+; Family                ; Cyclone II                            ;
+; Device                ; EP2C5T144C8                           ;
 +-----------------------+---------------------------------------+
 
 
@@ -51,7 +52,6 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 ; Option                                                                      ; Setting  ; Default Value ;
 +-----------------------------------------------------------------------------+----------+---------------+
-; Use configuration device                                                    ; On       ; Off           ;
 ; Use smart compilation                                                       ; Off      ; Off           ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation  ; On       ; On            ;
 ; Enable compact report table                                                 ; Off      ; Off           ;
@@ -61,6 +61,7 @@ applicable agreement for further details.
 ; Clock frequency of the configuration device                                 ; 10 MHZ   ; 10 MHz        ;
 ; Divide clock frequency by                                                   ; 1        ; 1             ;
 ; Auto user code                                                              ; Off      ; Off           ;
+; Use configuration device                                                    ; On       ; On            ;
 ; Configuration device                                                        ; Auto     ; Auto          ;
 ; Configuration device auto user code                                         ; Off      ; Off           ;
 ; Generate Tabular Text File (.ttf) For Target Device                         ; Off      ; Off           ;
@@ -70,12 +71,22 @@ applicable agreement for further details.
 ; Hexadecimal Output File count direction                                     ; Up       ; Up            ;
 ; Release clears before tri-states                                            ; Off      ; Off           ;
 ; Auto-restart configuration after error                                      ; On       ; On            ;
-; Enable OCT_DONE                                                             ; Off      ; Off           ;
+; Maintain Compatibility with All Cyclone II M4K Versions                     ; On       ; On            ;
 ; Generate Serial Vector Format File (.svf) for Target Device                 ; Off      ; Off           ;
 ; Generate a JEDEC STAPL Format File (.jam) for Target Device                 ; Off      ; Off           ;
 ; Generate a compressed Jam STAPL Byte Code 2.0 File (.jbc) for Target Device ; Off      ; Off           ;
 ; Generate a compressed Jam STAPL Byte Code 2.0 File (.jbc) for Target Device ; On       ; On            ;
 +-----------------------------------------------------------------------------+----------+---------------+
+
+
++------------------------------------------------+
+; Assembler Encrypted IP Cores Summary           ;
++--------+------------------------+--------------+
+; Vendor ; IP Core Name           ; License Type ;
++--------+------------------------+--------------+
+; Altera ; Signal Tap (6AF7 BCE1) ; Licensed     ;
+; Altera ; Signal Tap (6AF7 BCEC) ; Licensed     ;
++--------+------------------------+--------------+
 
 
 +---------------------------------+
@@ -93,9 +104,9 @@ applicable agreement for further details.
 +----------------+------------------------------------------+
 ; Option         ; Setting                                  ;
 +----------------+------------------------------------------+
-; Device         ; EP4CE6E22C8                              ;
+; Device         ; EP2C5T144C8                              ;
 ; JTAG usercode  ; 0xFFFFFFFF                               ;
-; Checksum       ; 0x000CA944                               ;
+; Checksum       ; 0x00107258                               ;
 +----------------+------------------------------------------+
 
 
@@ -106,8 +117,8 @@ applicable agreement for further details.
 +--------------------+--------------------------------------+
 ; Device             ; EPCS4                                ;
 ; JTAG usercode      ; 0x00000000                           ;
-; Checksum           ; 0x067278C2                           ;
-; Compression Ratio  ; 3                                    ;
+; Checksum           ; 0x0742B5F6                           ;
+; Compression Ratio  ; 2                                    ;
 +--------------------+--------------------------------------+
 
 
@@ -117,13 +128,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Full Version
-    Info: Processing started: Fri Nov 27 22:23:36 2015
+    Info: Processing started: Tue Nov 22 21:12:23 2016
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off First_project -c First_project
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 329 megabytes
-    Info: Processing ended: Fri Nov 27 22:23:37 2015
+    Info: Processing ended: Tue Nov 22 21:12:24 2016
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

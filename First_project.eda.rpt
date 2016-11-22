@@ -1,5 +1,5 @@
 EDA Netlist Writer report for First_project
-Fri Nov 27 22:23:41 2015
+Tue Nov 22 21:12:26 2016
 Quartus II 64-Bit Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Full Version
 
 
@@ -36,10 +36,10 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Nov 27 22:23:41 2015 ;
+; EDA Netlist Writer Status ; Successful - Tue Nov 22 21:12:26 2016 ;
 ; Revision Name             ; First_project                         ;
 ; Top-level Entity Name     ; First_project                         ;
-; Family                    ; Cyclone IV E                          ;
+; Family                    ; Cyclone II                            ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
 
@@ -66,20 +66,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Simulation Generated Files                                                 ;
-+----------------------------------------------------------------------------+
-; Generated Files                                                            ;
-+----------------------------------------------------------------------------+
-; C:/Smart_home/simulation/modelsim/First_project_8_1200mv_85c_slow.vho      ;
-; C:/Smart_home/simulation/modelsim/First_project_8_1200mv_0c_slow.vho       ;
-; C:/Smart_home/simulation/modelsim/First_project_min_1200mv_0c_fast.vho     ;
-; C:/Smart_home/simulation/modelsim/First_project.vho                        ;
-; C:/Smart_home/simulation/modelsim/First_project_8_1200mv_85c_vhd_slow.sdo  ;
-; C:/Smart_home/simulation/modelsim/First_project_8_1200mv_0c_vhd_slow.sdo   ;
-; C:/Smart_home/simulation/modelsim/First_project_min_1200mv_0c_vhd_fast.sdo ;
-; C:/Smart_home/simulation/modelsim/First_project_vhd.sdo                    ;
-+----------------------------------------------------------------------------+
++--------------------------------------------------------------+
+; Simulation Generated Files                                   ;
++--------------------------------------------------------------+
+; Generated Files                                              ;
++--------------------------------------------------------------+
+; C:/Smart_home/simulation/modelsim/First_project.vho          ;
+; C:/Smart_home/simulation/modelsim/First_project_fast.vho     ;
+; C:/Smart_home/simulation/modelsim/First_project_vhd.sdo      ;
+; C:/Smart_home/simulation/modelsim/First_project_vhd_fast.sdo ;
++--------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -88,20 +84,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Full Version
-    Info: Processing started: Fri Nov 27 22:23:39 2015
+    Info: Processing started: Tue Nov 22 21:12:25 2016
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off First_project -c First_project
-Info (204019): Generated file First_project_8_1200mv_85c_slow.vho in folder "C:/Smart_home/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file First_project_8_1200mv_0c_slow.vho in folder "C:/Smart_home/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file First_project_min_1200mv_0c_fast.vho in folder "C:/Smart_home/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file First_project.vho in folder "C:/Smart_home/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file First_project_8_1200mv_85c_vhd_slow.sdo in folder "C:/Smart_home/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file First_project_8_1200mv_0c_vhd_slow.sdo in folder "C:/Smart_home/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file First_project_min_1200mv_0c_vhd_fast.sdo in folder "C:/Smart_home/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file First_project_vhd.sdo in folder "C:/Smart_home/simulation/modelsim/" for EDA simulation tool
+Info (204026): Generated files "First_project.vho", "First_project_fast.vho", "First_project_vhd.sdo" and "First_project_vhd_fast.sdo" in directory "C:/Smart_home/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 322 megabytes
-    Info: Processing ended: Fri Nov 27 22:23:41 2015
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 336 megabytes
+    Info: Processing ended: Tue Nov 22 21:12:26 2016
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

@@ -1,6 +1,6 @@
 module SPI_slave(clk, SCK, MOSI, MISO, SSEL, LED,byte_data_received,HYM2);
 input clk;
-output reg [87:0] byte_data_received; 
+output reg [15:0] byte_data_received; // принимаем 2 бита информации по SPI
 input SCK, SSEL, MOSI;
 output MISO;
 output LED;
@@ -38,7 +38,7 @@ begin
    end else begin
 		if(SCK_risingedge) begin
 			bitcnt<=bitcnt+7'b0000001;
-			byte_data_received <= {byte_data_received[86:0], MOSI_data}; 
+			byte_data_received <= {byte_data_received[14:0], MOSI_data}; 
 		end
 	end
 end
