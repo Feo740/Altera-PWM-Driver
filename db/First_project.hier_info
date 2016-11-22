@@ -3,7 +3,7 @@ key0 => key0.IN1
 clk50M => clk50M.IN2
 SCK => SCK.IN1
 MOSI => MOSI.IN1
-SSEL => SSEL.IN2
+SSEL => SSEL.IN1
 Data_H <> Humidity:Hum.port1
 
 
@@ -281,14 +281,6 @@ clk25M => buffer[4].CLK
 clk25M => buffer[5].CLK
 clk25M => buffer[6].CLK
 clk25M => buffer[7].CLK
-clk25M => packet_adr[0].CLK
-clk25M => packet_adr[1].CLK
-clk25M => packet_adr[2].CLK
-clk25M => packet_adr[3].CLK
-clk25M => packet_adr[4].CLK
-clk25M => packet_adr[5].CLK
-clk25M => packet_adr[6].CLK
-clk25M => packet_adr[7].CLK
 clk25M => cnt[0].CLK
 clk25M => cnt[1].CLK
 clk25M => cnt[2].CLK
@@ -321,14 +313,14 @@ byte_data_received[6] => buffer3.DATAB
 byte_data_received[7] => buffer.DATAB
 byte_data_received[7] => buffer2.DATAB
 byte_data_received[7] => buffer3.DATAB
-byte_data_received[8] => packet_adr[0].DATAIN
-byte_data_received[9] => packet_adr[1].DATAIN
-byte_data_received[10] => packet_adr[2].DATAIN
-byte_data_received[11] => packet_adr[3].DATAIN
-byte_data_received[12] => packet_adr[4].DATAIN
-byte_data_received[13] => packet_adr[5].DATAIN
-byte_data_received[14] => packet_adr[6].DATAIN
-byte_data_received[15] => packet_adr[7].DATAIN
+byte_data_received[8] => Decoder0.IN7
+byte_data_received[9] => Decoder0.IN6
+byte_data_received[10] => Decoder0.IN5
+byte_data_received[11] => Decoder0.IN4
+byte_data_received[12] => Decoder0.IN3
+byte_data_received[13] => Decoder0.IN2
+byte_data_received[14] => Decoder0.IN1
+byte_data_received[15] => Decoder0.IN0
 byte_received => buffer3[4].ENA
 byte_received => buffer3[3].ENA
 byte_received => buffer3[2].ENA
@@ -353,14 +345,6 @@ byte_received => buffer[4].ENA
 byte_received => buffer[5].ENA
 byte_received => buffer[6].ENA
 byte_received => buffer[7].ENA
-byte_received => packet_adr[0].ENA
-byte_received => packet_adr[1].ENA
-byte_received => packet_adr[2].ENA
-byte_received => packet_adr[3].ENA
-byte_received => packet_adr[4].ENA
-byte_received => packet_adr[5].ENA
-byte_received => packet_adr[6].ENA
-byte_received => packet_adr[7].ENA
 
 
 |First_project|Humidity:Hum

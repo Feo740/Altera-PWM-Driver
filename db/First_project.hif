@@ -7959,42 +7959,6 @@ f11711657cd42ee78437f4349496034
 
 # end
 # entity
-First_project
-# storage
-db|First_project.(0).cnf
-db|First_project.(0).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-first_project.v
-b17af9127b5dca52d3a82ece388fe333
-8
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-IGNORE_VERILOG_INITIAL_CONSTRUCTS
-OFF
-VERILOG_CONSTANT_LOOP_LIMIT
-5000
-VERILOG_NON_CONSTANT_LOOP_LIMIT
-250
-}
-# hierarchies {
-|
-}
-# macro_sequence
-
-# end
-# entity
 SPI_slave
 # storage
 db|First_project.(1).cnf
@@ -8031,6 +7995,42 @@ SPI_slave:SPI_MODULE
 
 # end
 # entity
+First_project
+# storage
+db|First_project.(0).cnf
+db|First_project.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+first_project.v
+ec7becce7aaaf8d5a48715b322b8cc96
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
 PWM
 # storage
 db|First_project.(7).cnf
@@ -8042,7 +8042,7 @@ ON
 # case_sensitive
 # source_file
 pwm_channel1.v
-c8a67bdf9b2b06942fc3288588bd37a
+a6218365b43e7f4e5b6caf22db18340
 8
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT

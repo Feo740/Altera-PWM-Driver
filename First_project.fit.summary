@@ -1,12 +1,12 @@
-Fitter Status : Successful - Tue Nov 22 21:52:10 2016
+Fitter Status : Successful - Tue Nov 22 22:23:29 2016
 Quartus II 64-Bit Version : 11.1 Build 216 11/23/2011 SP 1 SJ Full Version
 Revision Name : First_project
 Top-level Entity Name : First_project
 Family : Cyclone II
 Device : EP2C5T144C8
 Timing Models : Final
-Total logic elements : 986 / 4,608 ( 21 % )
-    Total combinational functions : 762 / 4,608 ( 17 % )
+Total logic elements : 993 / 4,608 ( 22 % )
+    Total combinational functions : 777 / 4,608 ( 17 % )
     Dedicated logic registers : 756 / 4,608 ( 16 % )
 Total registers : 756
 Total pins : 25 / 89 ( 28 % )

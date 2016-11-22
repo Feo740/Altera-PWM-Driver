@@ -25,8 +25,7 @@ reg [7:0] packet_adr;
 always @(posedge clk25M) begin 
 cnt <= cnt + 1'b1;  // free-running counter
 if (byte_received) begin
-packet_adr<=(byte_data_received[15:8]);
-case (packet_adr)
+case (byte_data_received[15:8])
 	  8'b00000011: buffer <= byte_data_received[7:0];
 	  8'b00000010: buffer2 <= byte_data_received[7:0];
 	  8'b00000001: buffer3 <= byte_data_received[7:0];
