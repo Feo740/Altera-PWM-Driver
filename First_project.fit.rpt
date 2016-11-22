@@ -1,5 +1,5 @@
 Fitter report for First_project
-Tue Nov 22 21:12:22 2016
+Tue Nov 22 21:52:10 2016
 Quartus II 64-Bit Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Full Version
 
 
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                      ;
 +------------------------------------+------------------------------------------------+
-; Fitter Status                      ; Successful - Tue Nov 22 21:12:22 2016          ;
+; Fitter Status                      ; Successful - Tue Nov 22 21:52:10 2016          ;
 ; Quartus II 64-Bit Version          ; 11.1 Build 216 11/23/2011 SP 1 SJ Full Version ;
 ; Revision Name                      ; First_project                                  ;
 ; Top-level Entity Name              ; First_project                                  ;
@@ -141,12 +141,12 @@ applicable agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
+; Average used               ; 3.40        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     1 processor            ; 100.0%      ;
-;     2-4 processors         ; < 0.1%      ;
+;     2-4 processors         ;  50.0%      ;
 +----------------------------+-------------+
 
 
@@ -2013,7 +2013,7 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Fitter
     Info: Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Full Version
-    Info: Processing started: Tue Nov 22 21:12:19 2016
+    Info: Processing started: Tue Nov 22 21:52:07 2016
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off First_project -c First_project
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (119006): Selected device EP2C5T144C8 for design "First_project"
@@ -2117,8 +2117,8 @@ Info (306005): Delay annotation completed successfully
 Info (176045): Design uses memory blocks. Violating setup or hold times of memory block address registers for either read or write operations could cause memory contents to be corrupted. Make sure that all memory block address registers meet the setup and hold time requirements.
 Info (144001): Generated suppressed messages file C:/Smart_home/First_project.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 487 megabytes
-    Info: Processing ended: Tue Nov 22 21:12:22 2016
+    Info: Peak virtual memory: 486 megabytes
+    Info: Processing ended: Tue Nov 22 21:52:10 2016
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 

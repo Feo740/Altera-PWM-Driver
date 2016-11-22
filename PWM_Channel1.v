@@ -11,7 +11,7 @@ module PWM(
 	 output PWM_out8, //добавляем восьмой канал
 	 output PWM_out9, //добавляем девятый канал
 	 output PWM_out_vent, //добавляем десятый канал вентиляции вытяжки
-	 input SSEL
+	 input byte_received
 	 	 );
 
 reg [7:0] buffer;
@@ -24,7 +24,7 @@ reg [7:0] packet_adr;
 
 always @(posedge clk25M) begin 
 cnt <= cnt + 1'b1;  // free-running counter
-if (SSEL) begin
+if (byte_received) begin
 packet_adr<=(byte_data_received[15:8]);
 case (packet_adr)
 	  8'b00000011: buffer <= byte_data_received[7:0];

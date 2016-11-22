@@ -1,5 +1,5 @@
 Analysis & Synthesis report for First_project
-Tue Nov 22 21:12:18 2016
+Tue Nov 22 21:52:07 2016
 Quartus II 64-Bit Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Full Version
 
 
@@ -54,7 +54,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Nov 22 21:12:18 2016          ;
+; Analysis & Synthesis Status        ; Successful - Tue Nov 22 21:52:07 2016          ;
 ; Quartus II 64-Bit Version          ; 11.1 Build 216 11/23/2011 SP 1 SJ Full Version ;
 ; Revision Name                      ; First_project                                  ;
 ; Top-level Entity Name              ; First_project                                  ;
@@ -519,13 +519,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "SPI_slave:SPI_MODULE"                                                               ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; LED  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "SPI_slave:SPI_MODULE"                                                                        ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; LED           ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; byte_received ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -542,7 +543,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -570,7 +571,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Full Version
-    Info: Processing started: Tue Nov 22 21:12:14 2016
+    Info: Processing started: Tue Nov 22 21:52:02 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off First_project -c First_project
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file frqdiv.v
@@ -593,6 +594,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file humidit
     Info (12023): Found entity 1: Humidity
 Info (12021): Found 1 design units, including 1 entities, in source file five_sec.v
     Info (12023): Found entity 1: five_sec
+Warning (10236): Verilog HDL Implicit Net warning at First_project.v(35): created implicit net for "byte_received"
 Info (12127): Elaborating entity "First_project" for the top level hierarchy
 Info (12128): Elaborating entity "SPI_slave" for hierarchy "SPI_slave:SPI_MODULE"
 Warning (10034): Output port "LED" at spi_slave.v(6) has no driver
@@ -659,10 +661,10 @@ Info (21057): Implemented 1115 device resources after synthesis - the final reso
     Info (21060): Implemented 1 bidirectional pins
     Info (21061): Implemented 1077 logic cells
     Info (21064): Implemented 8 RAM segments
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 16 warnings
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 17 warnings
     Info: Peak virtual memory: 448 megabytes
-    Info: Processing ended: Tue Nov 22 21:12:18 2016
-    Info: Elapsed time: 00:00:04
+    Info: Processing ended: Tue Nov 22 21:52:07 2016
+    Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:04
 
 

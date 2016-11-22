@@ -32,7 +32,7 @@ module First_project(input wire key0,
 	  wire [39:0]HYM2;
 	  wire LED;
 	  wire [15:0]byte_data_received;
-	  SPI_slave SPI_MODULE(clk50M, SCK, MOSI, MISO, SSEL, LED, byte_data_received,HYM2);
+	  SPI_slave SPI_MODULE(clk50M, SCK, MOSI, MISO, SSEL, LED, byte_data_received,HYM2,byte_received);
 	  wire clk1hz,clk25M,clk1M;
 	  frqdiv       FGD(clk50M,clk1hz,clk25M,clk1M); // важна последовательность объявления экземпляров?
 	  wire M_EN,DIR, STEP;

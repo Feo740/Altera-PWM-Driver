@@ -22,42 +22,6 @@ VHSM_ON
 -- Start VHDL Libraries --
 -- End VHDL Libraries --
 # entity
-SPI_slave
-# storage
-db|First_project.(1).cnf
-db|First_project.(1).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-spi_slave.v
-24e547c355876f36bc292d172c57ef
-8
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-IGNORE_VERILOG_INITIAL_CONSTRUCTS
-OFF
-VERILOG_CONSTANT_LOOP_LIMIT
-5000
-VERILOG_NON_CONSTANT_LOOP_LIMIT
-250
-}
-# hierarchies {
-SPI_slave:SPI_MODULE
-}
-# macro_sequence
-
-# end
-# entity
 frqdiv
 # storage
 db|First_project.(2).cnf
@@ -8006,7 +7970,7 @@ ON
 # case_sensitive
 # source_file
 first_project.v
-345eca41f1dd8cb54e3ff199f8fd8a
+b17af9127b5dca52d3a82ece388fe333
 8
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -8031,6 +7995,42 @@ VERILOG_NON_CONSTANT_LOOP_LIMIT
 
 # end
 # entity
+SPI_slave
+# storage
+db|First_project.(1).cnf
+db|First_project.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+spi_slave.v
+61367ff2fb961f34fe032af3135332
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+SPI_slave:SPI_MODULE
+}
+# macro_sequence
+
+# end
+# entity
 PWM
 # storage
 db|First_project.(7).cnf
@@ -8042,7 +8042,7 @@ ON
 # case_sensitive
 # source_file
 pwm_channel1.v
-c33856fed7dc4c486c21b81bbb69ebe9
+c8a67bdf9b2b06942fc3288588bd37a
 8
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT

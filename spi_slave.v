@@ -1,4 +1,4 @@
-module SPI_slave(clk, SCK, MOSI, MISO, SSEL, LED,byte_data_received,HYM2);
+module SPI_slave(clk, SCK, MOSI, MISO, SSEL, LED,byte_data_received,HYM2,byte_received);
 input clk;
 output reg [15:0] byte_data_received; // принимаем 2 бита информации по SPI
 input SCK, SSEL, MOSI;
@@ -27,21 +27,22 @@ wire MOSI_data = MOSIr[1];
 // we handle SPI in 87-bits format, so we need a 7 bits counter to count the bits as they come in
 reg [6:0] bitcnt;
 
-reg byte_received;  // high when a byte has been received
+output reg byte_received;  // high when a byte has been received
 reg [7:0] cnt;
 reg [39:0] HYM_send; // регистр куда помещаем инфу влажности с вектора входа, его и будем смещать при передаче.
 
 always @(posedge clk)
 begin
 	if(~SSEL_active) begin
-		bitcnt<=7'b0000000;
+		bitcnt<=4'b0000;
    end else begin
 		if(SCK_risingedge) begin
-			bitcnt<=bitcnt+7'b0000001;
+			bitcnt<=bitcnt+4'b0001;
 			byte_data_received <= {byte_data_received[14:0], MOSI_data}; 
 		end
 	end
 end
+always @(posedge clk) byte_received <= SSEL_active && SCK_risingedge && (bitcnt==4'b1111);
 
 always @(posedge clk)
 begin
