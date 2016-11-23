@@ -1,5 +1,5 @@
 module PWM(
-    input clk25M,
+    input clk50M,
     input [15:0]byte_data_received,
     output PWM_out,
 	 output PWM_out2, //добавляем второй канал
@@ -14,7 +14,7 @@ module PWM(
 	 input byte_received
 	 	 );
 
-reg [7:0] buffer;
+reg [7:0] buffer1;
 reg [7:0] buffer2;
 reg [7:0] buffer3;
 reg [7:0] cnt;
@@ -22,13 +22,13 @@ reg [7:0] packet_adr;
 
 
 
-always @(posedge clk25M) begin 
+always @(posedge clk50M) begin 
 cnt <= cnt + 1'b1;  // free-running counter
 if (byte_received) begin
 case (byte_data_received[15:8])
-	  8'b00000011: buffer <= byte_data_received[7:0];
+	  8'b00000011: buffer3 <= byte_data_received[7:0];
 	  8'b00000010: buffer2 <= byte_data_received[7:0];
-	  8'b00000001: buffer3 <= byte_data_received[7:0];
+	  8'b00000001: buffer1 <= byte_data_received[7:0];
 	  endcase
 end
 			
@@ -37,7 +37,7 @@ end
 //PWM_Chanel=byte_data_received[7:0];
 end
 //первые три канала работают по 1 пакету 
-assign PWM_out = ((buffer3)>cnt);  // comparator
+assign PWM_out = ((buffer1)>cnt);  // comparator
 assign PWM_out2 = ((buffer2)>cnt); //добавляем второй канал
 //assign PWM_out3 = ((byte_data_received[31:24])>cnt); //добавляем третий канал
 //вторые три канала работают по 2 пакету
@@ -48,6 +48,6 @@ assign PWM_out2 = ((buffer2)>cnt); //добавляем второй канал
 //assign PWM_out7 = ((byte_data_received[63:56])>cnt); //добавляем седьмой канал
 //assign PWM_out8 = ((byte_data_received[71:64])>cnt); //добавляем восьмой канал
 //assign PWM_out9 = ((byte_data_received[79:72])>cnt); //добавляем девятый канал
-assign PWM_out_vent = ((buffer)>cnt);
+assign PWM_out_vent = ((buffer3)>cnt);
 
 endmodule

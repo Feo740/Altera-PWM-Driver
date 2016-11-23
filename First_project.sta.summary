@@ -2,108 +2,36 @@
 TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow Model Setup 'clk50M'
-Slack : 10.073
+Type  : Slow Model Setup 'clk50'
+Slack : 11.544
 TNS   : 0.000
 
-Type  : Slow Model Setup 'clk25M'
-Slack : 37.584
-TNS   : 0.000
-
-Type  : Slow Model Setup 'clk1M'
-Slack : 988.106
-TNS   : 0.000
-
-Type  : Slow Model Setup 'clk1hz'
-Slack : 999992.262
-TNS   : 0.000
-
-Type  : Slow Model Hold 'clk1M'
+Type  : Slow Model Hold 'clk50'
 Slack : 0.499
 TNS   : 0.000
 
-Type  : Slow Model Hold 'clk1hz'
-Slack : 0.499
-TNS   : 0.000
-
-Type  : Slow Model Hold 'clk25M'
-Slack : 0.499
-TNS   : 0.000
-
-Type  : Slow Model Hold 'clk50M'
-Slack : 0.499
-TNS   : 0.000
-
-Type  : Slow Model Minimum Pulse Width 'clk50M'
+Type  : Slow Model Minimum Pulse Width 'clk50'
 Slack : 6.933
-TNS   : 0.000
-
-Type  : Slow Model Minimum Pulse Width 'clk25M'
-Slack : 18.758
 TNS   : 0.000
 
 Type  : Slow Model Minimum Pulse Width 'altera_reserved_tck'
 Slack : 97.223
 TNS   : 0.000
 
-Type  : Slow Model Minimum Pulse Width 'clk1M'
-Slack : 498.758
+Type  : Fast Model Setup 'clk50'
+Slack : 17.362
 TNS   : 0.000
 
-Type  : Slow Model Minimum Pulse Width 'clk1hz'
-Slack : 499998.758
-TNS   : 0.000
-
-Type  : Fast Model Setup 'clk50M'
-Slack : 16.894
-TNS   : 0.000
-
-Type  : Fast Model Setup 'clk25M'
-Slack : 39.187
-TNS   : 0.000
-
-Type  : Fast Model Setup 'clk1M'
-Slack : 996.294
-TNS   : 0.000
-
-Type  : Fast Model Setup 'clk1hz'
-Slack : 999997.295
-TNS   : 0.000
-
-Type  : Fast Model Hold 'clk1M'
+Type  : Fast Model Hold 'clk50'
 Slack : 0.215
 TNS   : 0.000
 
-Type  : Fast Model Hold 'clk1hz'
-Slack : 0.215
-TNS   : 0.000
-
-Type  : Fast Model Hold 'clk25M'
-Slack : 0.215
-TNS   : 0.000
-
-Type  : Fast Model Hold 'clk50M'
-Slack : 0.215
-TNS   : 0.000
-
-Type  : Fast Model Minimum Pulse Width 'clk50M'
+Type  : Fast Model Minimum Pulse Width 'clk50'
 Slack : 7.620
-TNS   : 0.000
-
-Type  : Fast Model Minimum Pulse Width 'clk25M'
-Slack : 19.000
 TNS   : 0.000
 
 Type  : Fast Model Minimum Pulse Width 'altera_reserved_tck'
 Slack : 97.778
-TNS   : 0.000
-
-Type  : Fast Model Minimum Pulse Width 'clk1M'
-Slack : 499.000
-TNS   : 0.000
-
-Type  : Fast Model Minimum Pulse Width 'clk1hz'
-Slack : 499999.000
 TNS   : 0.000
 
 ------------------------------------------------------------

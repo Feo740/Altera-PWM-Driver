@@ -1,7 +1,7 @@
 <sld_project_info>
   <file_info>
-    <file checksum="0x0010C5CF" device="EP2C5T144C8" path="First_project.sof" usercode="0xFFFFFFFF"/>
-    <file checksum="0x073F4CE6" device="EPCS4" path="First_project.pof" usercode="0x00000000"/>
+    <file checksum="0x0011FDEA" device="EP2C5T144C8" path="First_project.sof" usercode="0xFFFFFFFF"/>
+    <file checksum="0x073F74EE" device="EPCS4" path="First_project.pof" usercode="0x00000000"/>
   </file_info>
   <hub_info ir_width="8" node_count="1"/>
   <node_info>
@@ -12,11 +12,11 @@
         <parameter name="SLD_IP_VERSION" type="dec" value="6"/>
         <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="0"/>
         <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
-        <parameter name="sld_data_bits" type="unknown" value="4"/>
-        <parameter name="sld_trigger_bits" type="unknown" value="4"/>
+        <parameter name="sld_data_bits" type="unknown" value="7"/>
+        <parameter name="sld_trigger_bits" type="unknown" value="7"/>
         <parameter name="SLD_NODE_CRC_BITS" type="dec" value="32"/>
-        <parameter name="sld_node_crc_hiword" type="unknown" value="52741"/>
-        <parameter name="sld_node_crc_loword" type="unknown" value="47"/>
+        <parameter name="sld_node_crc_hiword" type="unknown" value="32177"/>
+        <parameter name="sld_node_crc_loword" type="unknown" value="58801"/>
         <parameter name="SLD_INCREMENTAL_ROUTING" type="dec" value="0"/>
         <parameter name="sld_sample_depth" type="unknown" value="8192"/>
         <parameter name="sld_segment_size" type="unknown" value="8192"/>
@@ -25,9 +25,9 @@
         <parameter name="sld_buffer_full_stop" type="unknown" value="1"/>
         <parameter name="SLD_MEM_ADDRESS_BITS" type="dec" value="7"/>
         <parameter name="SLD_DATA_BIT_CNTR_BITS" type="dec" value="4"/>
-        <parameter name="sld_trigger_level" type="unknown" value="1"/>
+        <parameter name="sld_trigger_level" type="unknown" value="3"/>
         <parameter name="sld_trigger_in_enabled" type="unknown" value="1"/>
-        <parameter name="sld_advanced_trigger_entity" type="unknown" value="basic,1,"/>
+        <parameter name="sld_advanced_trigger_entity" type="unknown" value="basic,1,basic,1,basic,1,"/>
         <parameter name="sld_trigger_level_pipeline" type="unknown" value="1"/>
         <parameter name="sld_enable_advanced_trigger" type="unknown" value="0"/>
         <parameter name="SLD_ADVANCED_TRIGGER_1" type="string" value="NONE"/>
@@ -40,8 +40,8 @@
         <parameter name="SLD_ADVANCED_TRIGGER_8" type="string" value="NONE"/>
         <parameter name="SLD_ADVANCED_TRIGGER_9" type="string" value="NONE"/>
         <parameter name="SLD_ADVANCED_TRIGGER_10" type="string" value="NONE"/>
-        <parameter name="sld_inversion_mask_length" type="unknown" value="39"/>
-        <parameter name="sld_inversion_mask" type="unknown" value="000000000000000000000000000000000000000"/>
+        <parameter name="sld_inversion_mask_length" type="unknown" value="90"/>
+        <parameter name="sld_inversion_mask" type="unknown" value="000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"/>
         <parameter name="sld_power_up_trigger" type="unknown" value="0"/>
         <parameter name="SLD_STATE_FLOW_MGR_ENTITY" type="string" value="state_flow_mgr_entity.vhd"/>
         <parameter name="sld_state_flow_use_generated" type="unknown" value="0"/>

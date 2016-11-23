@@ -7970,7 +7970,7 @@ ON
 # case_sensitive
 # source_file
 spi_slave.v
-61367ff2fb961f34fe032af3135332
+5024137ba8109e6499117e37af41584
 8
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -7995,6 +7995,5606 @@ SPI_slave:SPI_MODULE
 
 # end
 # entity
+sld_signaltap
+# storage
+db|First_project.(71).cnf
+db|First_project.(71).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_signaltap.vhd
+bb05be3231843f26fbd10b13640dd9a
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+lpm_type
+sld_signaltap
+PARAMETER_STRING
+DEF
+sld_node_info
+805334528
+PARAMETER_UNKNOWN
+USR
+SLD_IP_VERSION
+6
+PARAMETER_SIGNED_DEC
+DEF
+SLD_IP_MINOR_VERSION
+0
+PARAMETER_SIGNED_DEC
+DEF
+SLD_COMMON_IP_VERSION
+0
+PARAMETER_SIGNED_DEC
+DEF
+sld_data_bits
+4
+PARAMETER_UNKNOWN
+USR
+sld_trigger_bits
+4
+PARAMETER_UNKNOWN
+USR
+SLD_NODE_CRC_BITS
+32
+PARAMETER_SIGNED_DEC
+DEF
+sld_node_crc_hiword
+35842
+PARAMETER_UNKNOWN
+USR
+sld_node_crc_loword
+47
+PARAMETER_UNKNOWN
+USR
+SLD_INCREMENTAL_ROUTING
+0
+PARAMETER_SIGNED_DEC
+DEF
+sld_sample_depth
+8192
+PARAMETER_UNKNOWN
+USR
+sld_segment_size
+8192
+PARAMETER_UNKNOWN
+USR
+SLD_RAM_BLOCK_TYPE
+AUTO
+PARAMETER_STRING
+DEF
+sld_state_bits
+11
+PARAMETER_UNKNOWN
+USR
+sld_buffer_full_stop
+1
+PARAMETER_UNKNOWN
+USR
+SLD_MEM_ADDRESS_BITS
+7
+PARAMETER_SIGNED_DEC
+DEF
+SLD_DATA_BIT_CNTR_BITS
+4
+PARAMETER_SIGNED_DEC
+DEF
+sld_trigger_level
+3
+PARAMETER_UNKNOWN
+USR
+sld_trigger_in_enabled
+1
+PARAMETER_UNKNOWN
+USR
+sld_advanced_trigger_entity
+basic,1,basic,1,basic,1,
+PARAMETER_UNKNOWN
+USR
+sld_trigger_level_pipeline
+1
+PARAMETER_UNKNOWN
+USR
+sld_enable_advanced_trigger
+0
+PARAMETER_UNKNOWN
+USR
+SLD_ADVANCED_TRIGGER_1
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_2
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_3
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_4
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_5
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_6
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_7
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_8
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_9
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_10
+NONE
+PARAMETER_STRING
+DEF
+sld_inversion_mask_length
+63
+PARAMETER_UNKNOWN
+USR
+sld_inversion_mask
+000000000000000000000000000000000000000000000000000000000000000
+PARAMETER_UNKNOWN
+USR
+sld_power_up_trigger
+0
+PARAMETER_UNKNOWN
+USR
+SLD_STATE_FLOW_MGR_ENTITY
+state_flow_mgr_entity.vhd
+PARAMETER_STRING
+DEF
+sld_state_flow_use_generated
+0
+PARAMETER_UNKNOWN
+USR
+sld_current_resource_width
+1
+PARAMETER_UNKNOWN
+USR
+sld_attribute_mem_mode
+OFF
+PARAMETER_UNKNOWN
+USR
+SLD_STORAGE_QUALIFIER_BITS
+1
+PARAMETER_SIGNED_DEC
+DEF
+SLD_STORAGE_QUALIFIER_GAP_RECORD
+0
+PARAMETER_SIGNED_DEC
+DEF
+SLD_STORAGE_QUALIFIER_MODE
+OFF
+PARAMETER_STRING
+DEF
+SLD_STORAGE_QUALIFIER_ENABLE_ADVANCED_CONDITION
+0
+PARAMETER_SIGNED_DEC
+DEF
+sld_storage_qualifier_inversion_mask_length
+0
+PARAMETER_UNKNOWN
+USR
+SLD_STORAGE_QUALIFIER_ADVANCED_CONDITION_ENTITY
+basic
+PARAMETER_STRING
+DEF
+SLD_STORAGE_QUALIFIER_PIPELINE
+0
+PARAMETER_SIGNED_DEC
+DEF
+}
+# macro_sequence
+
+# end
+# entity
+sld_signaltap_impl
+# storage
+db|First_project.(72).cnf
+db|First_project.(72).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_signaltap.vhd
+bb05be3231843f26fbd10b13640dd9a
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+sld_ip_version
+6
+PARAMETER_SIGNED_DEC
+USR
+sld_ip_minor_version
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_common_ip_version
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_data_bits
+4
+PARAMETER_SIGNED_DEC
+USR
+sld_trigger_bits
+4
+PARAMETER_SIGNED_DEC
+USR
+sld_node_crc_bits
+32
+PARAMETER_SIGNED_DEC
+USR
+sld_node_crc_hiword
+35842
+PARAMETER_SIGNED_DEC
+USR
+sld_node_crc_loword
+47
+PARAMETER_SIGNED_DEC
+USR
+sld_incremental_routing
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_sample_depth
+8192
+PARAMETER_SIGNED_DEC
+USR
+sld_segment_size
+8192
+PARAMETER_SIGNED_DEC
+USR
+sld_ram_block_type
+AUTO
+PARAMETER_STRING
+USR
+sld_state_bits
+11
+PARAMETER_SIGNED_DEC
+USR
+sld_buffer_full_stop
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_trigger_level
+3
+PARAMETER_SIGNED_DEC
+USR
+sld_trigger_in_enabled
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_advanced_trigger_entity
+basic,1,basic,1,basic,1,
+PARAMETER_STRING
+USR
+sld_trigger_level_pipeline
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_enable_advanced_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_advanced_trigger_1
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_2
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_3
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_4
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_5
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_6
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_7
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_8
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_9
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_10
+NONE
+PARAMETER_STRING
+USR
+sld_inversion_mask_length
+63
+PARAMETER_SIGNED_DEC
+USR
+sld_inversion_mask
+000000000000000000000000000000000000000000000000000000000000000
+PARAMETER_UNSIGNED_BIN
+USR
+sld_power_up_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_state_flow_mgr_entity
+state_flow_mgr_entity.vhd
+PARAMETER_STRING
+USR
+sld_state_flow_use_generated
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_current_resource_width
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_attribute_mem_mode
+OFF
+PARAMETER_STRING
+USR
+sld_storage_qualifier_bits
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_storage_qualifier_gap_record
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_storage_qualifier_mode
+OFF
+PARAMETER_STRING
+USR
+sld_storage_qualifier_enable_advanced_condition
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_storage_qualifier_inversion_mask_length
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_storage_qualifier_advanced_condition_entity
+basic
+PARAMETER_STRING
+USR
+sld_storage_qualifier_pipeline
+0
+PARAMETER_SIGNED_DEC
+USR
+ constraint(sld_ram_block_type)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_entity)
+1 to 24
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_1)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_2)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_3)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_4)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_5)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_6)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_7)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_8)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_9)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_10)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_inversion_mask)
+0 to 62
+PARAMETER_STRING
+USR
+ constraint(sld_state_flow_mgr_entity)
+1 to 25
+PARAMETER_STRING
+USR
+ constraint(sld_attribute_mem_mode)
+1 to 3
+PARAMETER_STRING
+USR
+ constraint(sld_storage_qualifier_mode)
+1 to 3
+PARAMETER_STRING
+USR
+ constraint(sld_storage_qualifier_advanced_condition_entity)
+1 to 5
+PARAMETER_STRING
+USR
+ constraint(acq_data_in)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(acq_trigger_in)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(acq_storage_qualifier_in)
+0 downto 0
+PARAMETER_STRING
+USR
+ constraint(crc)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(ir_in)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(ir_out)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(acq_data_out)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(acq_trigger_out)
+3 downto 0
+PARAMETER_STRING
+USR
+}
+# macro_sequence
+
+# end
+# entity
+sld_ela_control
+# storage
+db|First_project.(73).cnf
+db|First_project.(73).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_ela_control.vhd
+7bba1fa11b3e14a45218359258ca6721
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ip_major_version
+6
+PARAMETER_SIGNED_DEC
+USR
+ip_minor_version
+0
+PARAMETER_SIGNED_DEC
+USR
+common_ip_version
+0
+PARAMETER_SIGNED_DEC
+USR
+trigger_input_width
+4
+PARAMETER_SIGNED_DEC
+USR
+trigger_level
+3
+PARAMETER_SIGNED_DEC
+USR
+trigger_in_enabled
+1
+PARAMETER_SIGNED_DEC
+USR
+advanced_trigger_entity
+basic,1,basic,1,basic,1,
+PARAMETER_STRING
+USR
+enable_advanced_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+trigger_level_pipeline
+1
+PARAMETER_SIGNED_DEC
+USR
+ela_status_bits
+4
+PARAMETER_SIGNED_DEC
+USR
+mem_address_bits
+13
+PARAMETER_SIGNED_DEC
+USR
+sample_depth
+8192
+PARAMETER_SIGNED_DEC
+USR
+inversion_mask_length
+1
+PARAMETER_SIGNED_DEC
+USR
+inversion_mask
+0
+PARAMETER_UNSIGNED_BIN
+USR
+power_up_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+state_bits
+11
+PARAMETER_SIGNED_DEC
+USR
+segment_size_bits
+13
+PARAMETER_SIGNED_DEC
+USR
+state_flow_mgr_entity
+state_flow_mgr_entity.vhd
+PARAMETER_STRING
+USR
+state_flow_use_generated
+0
+PARAMETER_SIGNED_DEC
+USR
+current_resource_width
+1
+PARAMETER_SIGNED_DEC
+USR
+storage_qualifier_width
+1
+PARAMETER_SIGNED_DEC
+USR
+storage_qualifier_mode
+OFF
+PARAMETER_STRING
+USR
+storage_qualifier_enable_advanced_condition
+0
+PARAMETER_SIGNED_DEC
+USR
+storage_qualifier_inversion_mask_length
+0
+PARAMETER_SIGNED_DEC
+USR
+storage_qualifier_advanced_condition_entity
+basic
+PARAMETER_STRING
+USR
+storage_qualifier_pipeline
+0
+PARAMETER_SIGNED_DEC
+USR
+ constraint(advanced_trigger_entity)
+1 to 24
+PARAMETER_STRING
+USR
+ constraint(inversion_mask)
+62 downto 62
+PARAMETER_STRING
+USR
+ constraint(state_flow_mgr_entity)
+1 to 25
+PARAMETER_STRING
+USR
+ constraint(storage_qualifier_mode)
+1 to 3
+PARAMETER_STRING
+USR
+ constraint(storage_qualifier_advanced_condition_entity)
+1 to 5
+PARAMETER_STRING
+USR
+ constraint(acq_trigger_in)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(storage_qualifier_in)
+0 downto 0
+PARAMETER_STRING
+USR
+ constraint(post_fill_count)
+12 downto 0
+PARAMETER_STRING
+USR
+ constraint(current_state)
+10 downto 0
+PARAMETER_STRING
+USR
+ constraint(trigger_out_mode)
+0 downto 0
+PARAMETER_STRING
+USR
+ constraint(current_resource_value)
+0 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+sld_signaltap.vhd
+bb05be3231843f26fbd10b13640dd9a
+}
+# macro_sequence
+
+# end
+# entity
+sld_ela_basic_multi_level_trigger
+# storage
+db|First_project.(74).cnf
+db|First_project.(74).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_ela_control.vhd
+7bba1fa11b3e14a45218359258ca6721
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ip_major_version
+6
+PARAMETER_SIGNED_DEC
+USR
+ip_minor_version
+0
+PARAMETER_SIGNED_DEC
+USR
+common_ip_version
+0
+PARAMETER_SIGNED_DEC
+USR
+trigger_level
+3
+PARAMETER_SIGNED_DEC
+USR
+data_bits
+4
+PARAMETER_SIGNED_DEC
+USR
+pipeline
+1
+PARAMETER_SIGNED_DEC
+USR
+inversion_mask_length
+1
+PARAMETER_SIGNED_DEC
+USR
+inversion_mask
+0
+PARAMETER_UNSIGNED_BIN
+USR
+power_up_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+ constraint(inversion_mask)
+0 downto 0
+PARAMETER_STRING
+USR
+ constraint(data_in)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(trigger_level_match_out)
+2 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+sld_signaltap.vhd
+bb05be3231843f26fbd10b13640dd9a
+}
+# macro_sequence
+
+# end
+# entity
+LPM_SHIFTREG
+# storage
+db|First_project.(75).cnf
+db|First_project.(75).cnf
+# case_insensitive
+# source_file
+lpm_shiftreg.tdf
+2195e120f82d11b09c2dfec81d060f9
+7
+# user_parameter {
+LPM_WIDTH
+36
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+RIGHT
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+SHIFTOUT
+-1
+3
+SHIFTIN
+-1
+3
+Q9
+-1
+3
+Q8
+-1
+3
+Q7
+-1
+3
+Q6
+-1
+3
+Q5
+-1
+3
+Q4
+-1
+3
+Q35
+-1
+3
+Q34
+-1
+3
+Q33
+-1
+3
+Q32
+-1
+3
+Q31
+-1
+3
+Q30
+-1
+3
+Q3
+-1
+3
+Q29
+-1
+3
+Q28
+-1
+3
+Q27
+-1
+3
+Q26
+-1
+3
+Q25
+-1
+3
+Q24
+-1
+3
+Q23
+-1
+3
+Q22
+-1
+3
+Q21
+-1
+3
+Q20
+-1
+3
+Q2
+-1
+3
+Q19
+-1
+3
+Q18
+-1
+3
+Q17
+-1
+3
+Q16
+-1
+3
+Q15
+-1
+3
+Q14
+-1
+3
+Q13
+-1
+3
+Q12
+-1
+3
+Q11
+-1
+3
+Q10
+-1
+3
+Q1
+-1
+3
+Q0
+-1
+3
+ENABLE
+-1
+3
+CLOCK
+-1
+3
+ACLR
+-1
+3
+}
+# include_file {
+dffeea.inc
+f11711657cd42ee78437f4349496034
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+aglobal111.inc
+9cc1f9de5ad83fc94dd171c3f7986bd
+}
+# macro_sequence
+
+# end
+# entity
+sld_ela_trigger_flow_mgr
+# storage
+db|First_project.(76).cnf
+db|First_project.(76).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_ela_trigger_flow_mgr.vhd
+54b4e96651b97ec28a57c8b6d87fce
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ip_major_version
+6
+PARAMETER_SIGNED_DEC
+USR
+ip_minor_version
+0
+PARAMETER_SIGNED_DEC
+USR
+common_ip_version
+0
+PARAMETER_SIGNED_DEC
+USR
+trigger_level
+3
+PARAMETER_SIGNED_DEC
+USR
+segment_size_bits
+13
+PARAMETER_SIGNED_DEC
+USR
+state_bits
+11
+PARAMETER_SIGNED_DEC
+USR
+power_up_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+inversion_mask_length
+1
+PARAMETER_SIGNED_DEC
+USR
+inversion_mask
+0
+PARAMETER_UNSIGNED_BIN
+USR
+ constraint(inversion_mask)
+0 downto 0
+PARAMETER_STRING
+USR
+ constraint(condition_met)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(post_fill_count)
+12 downto 0
+PARAMETER_STRING
+USR
+ constraint(current_state)
+10 downto 0
+PARAMETER_STRING
+USR
+}
+# macro_sequence
+
+# end
+# entity
+LPM_SHIFTREG
+# storage
+db|First_project.(77).cnf
+db|First_project.(77).cnf
+# case_insensitive
+# source_file
+lpm_shiftreg.tdf
+2195e120f82d11b09c2dfec81d060f9
+7
+# user_parameter {
+LPM_WIDTH
+10
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+RIGHT
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+SHIFTOUT
+-1
+3
+SHIFTIN
+-1
+3
+Q2
+-1
+3
+Q1
+-1
+3
+Q0
+-1
+3
+ENABLE
+-1
+3
+CLOCK
+-1
+3
+ACLR
+-1
+3
+}
+# include_file {
+dffeea.inc
+f11711657cd42ee78437f4349496034
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+aglobal111.inc
+9cc1f9de5ad83fc94dd171c3f7986bd
+}
+# macro_sequence
+
+# end
+# entity
+sld_signaltap
+# storage
+db|First_project.(78).cnf
+db|First_project.(78).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_signaltap.vhd
+bb05be3231843f26fbd10b13640dd9a
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+lpm_type
+sld_signaltap
+PARAMETER_STRING
+DEF
+sld_node_info
+805334528
+PARAMETER_UNKNOWN
+USR
+SLD_IP_VERSION
+6
+PARAMETER_SIGNED_DEC
+DEF
+SLD_IP_MINOR_VERSION
+0
+PARAMETER_SIGNED_DEC
+DEF
+SLD_COMMON_IP_VERSION
+0
+PARAMETER_SIGNED_DEC
+DEF
+sld_data_bits
+5
+PARAMETER_UNKNOWN
+USR
+sld_trigger_bits
+5
+PARAMETER_UNKNOWN
+USR
+SLD_NODE_CRC_BITS
+32
+PARAMETER_SIGNED_DEC
+DEF
+sld_node_crc_hiword
+7314
+PARAMETER_UNKNOWN
+USR
+sld_node_crc_loword
+3968
+PARAMETER_UNKNOWN
+USR
+SLD_INCREMENTAL_ROUTING
+0
+PARAMETER_SIGNED_DEC
+DEF
+sld_sample_depth
+8192
+PARAMETER_UNKNOWN
+USR
+sld_segment_size
+8192
+PARAMETER_UNKNOWN
+USR
+SLD_RAM_BLOCK_TYPE
+AUTO
+PARAMETER_STRING
+DEF
+sld_state_bits
+11
+PARAMETER_UNKNOWN
+USR
+sld_buffer_full_stop
+1
+PARAMETER_UNKNOWN
+USR
+SLD_MEM_ADDRESS_BITS
+7
+PARAMETER_SIGNED_DEC
+DEF
+SLD_DATA_BIT_CNTR_BITS
+4
+PARAMETER_SIGNED_DEC
+DEF
+sld_trigger_level
+3
+PARAMETER_UNKNOWN
+USR
+sld_trigger_in_enabled
+1
+PARAMETER_UNKNOWN
+USR
+sld_advanced_trigger_entity
+basic,1,basic,1,basic,1,
+PARAMETER_UNKNOWN
+USR
+sld_trigger_level_pipeline
+1
+PARAMETER_UNKNOWN
+USR
+sld_enable_advanced_trigger
+0
+PARAMETER_UNKNOWN
+USR
+SLD_ADVANCED_TRIGGER_1
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_2
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_3
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_4
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_5
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_6
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_7
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_8
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_9
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_10
+NONE
+PARAMETER_STRING
+DEF
+sld_inversion_mask_length
+72
+PARAMETER_UNKNOWN
+USR
+sld_inversion_mask
+000000000000000000000000000000000000000000000000000000000000000000000000
+PARAMETER_UNKNOWN
+USR
+sld_power_up_trigger
+0
+PARAMETER_UNKNOWN
+USR
+SLD_STATE_FLOW_MGR_ENTITY
+state_flow_mgr_entity.vhd
+PARAMETER_STRING
+DEF
+sld_state_flow_use_generated
+0
+PARAMETER_UNKNOWN
+USR
+sld_current_resource_width
+1
+PARAMETER_UNKNOWN
+USR
+sld_attribute_mem_mode
+OFF
+PARAMETER_UNKNOWN
+USR
+SLD_STORAGE_QUALIFIER_BITS
+1
+PARAMETER_SIGNED_DEC
+DEF
+SLD_STORAGE_QUALIFIER_GAP_RECORD
+0
+PARAMETER_SIGNED_DEC
+DEF
+SLD_STORAGE_QUALIFIER_MODE
+OFF
+PARAMETER_STRING
+DEF
+SLD_STORAGE_QUALIFIER_ENABLE_ADVANCED_CONDITION
+0
+PARAMETER_SIGNED_DEC
+DEF
+sld_storage_qualifier_inversion_mask_length
+0
+PARAMETER_UNKNOWN
+USR
+SLD_STORAGE_QUALIFIER_ADVANCED_CONDITION_ENTITY
+basic
+PARAMETER_STRING
+DEF
+SLD_STORAGE_QUALIFIER_PIPELINE
+0
+PARAMETER_SIGNED_DEC
+DEF
+}
+# macro_sequence
+
+# end
+# entity
+sld_signaltap_impl
+# storage
+db|First_project.(79).cnf
+db|First_project.(79).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_signaltap.vhd
+bb05be3231843f26fbd10b13640dd9a
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+sld_ip_version
+6
+PARAMETER_SIGNED_DEC
+USR
+sld_ip_minor_version
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_common_ip_version
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_data_bits
+5
+PARAMETER_SIGNED_DEC
+USR
+sld_trigger_bits
+5
+PARAMETER_SIGNED_DEC
+USR
+sld_node_crc_bits
+32
+PARAMETER_SIGNED_DEC
+USR
+sld_node_crc_hiword
+7314
+PARAMETER_SIGNED_DEC
+USR
+sld_node_crc_loword
+3968
+PARAMETER_SIGNED_DEC
+USR
+sld_incremental_routing
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_sample_depth
+8192
+PARAMETER_SIGNED_DEC
+USR
+sld_segment_size
+8192
+PARAMETER_SIGNED_DEC
+USR
+sld_ram_block_type
+AUTO
+PARAMETER_STRING
+USR
+sld_state_bits
+11
+PARAMETER_SIGNED_DEC
+USR
+sld_buffer_full_stop
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_trigger_level
+3
+PARAMETER_SIGNED_DEC
+USR
+sld_trigger_in_enabled
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_advanced_trigger_entity
+basic,1,basic,1,basic,1,
+PARAMETER_STRING
+USR
+sld_trigger_level_pipeline
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_enable_advanced_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_advanced_trigger_1
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_2
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_3
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_4
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_5
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_6
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_7
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_8
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_9
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_10
+NONE
+PARAMETER_STRING
+USR
+sld_inversion_mask_length
+72
+PARAMETER_SIGNED_DEC
+USR
+sld_inversion_mask
+000000000000000000000000000000000000000000000000000000000000000000000000
+PARAMETER_UNSIGNED_BIN
+USR
+sld_power_up_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_state_flow_mgr_entity
+state_flow_mgr_entity.vhd
+PARAMETER_STRING
+USR
+sld_state_flow_use_generated
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_current_resource_width
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_attribute_mem_mode
+OFF
+PARAMETER_STRING
+USR
+sld_storage_qualifier_bits
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_storage_qualifier_gap_record
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_storage_qualifier_mode
+OFF
+PARAMETER_STRING
+USR
+sld_storage_qualifier_enable_advanced_condition
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_storage_qualifier_inversion_mask_length
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_storage_qualifier_advanced_condition_entity
+basic
+PARAMETER_STRING
+USR
+sld_storage_qualifier_pipeline
+0
+PARAMETER_SIGNED_DEC
+USR
+ constraint(sld_ram_block_type)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_entity)
+1 to 24
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_1)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_2)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_3)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_4)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_5)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_6)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_7)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_8)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_9)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_10)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_inversion_mask)
+0 to 71
+PARAMETER_STRING
+USR
+ constraint(sld_state_flow_mgr_entity)
+1 to 25
+PARAMETER_STRING
+USR
+ constraint(sld_attribute_mem_mode)
+1 to 3
+PARAMETER_STRING
+USR
+ constraint(sld_storage_qualifier_mode)
+1 to 3
+PARAMETER_STRING
+USR
+ constraint(sld_storage_qualifier_advanced_condition_entity)
+1 to 5
+PARAMETER_STRING
+USR
+ constraint(acq_data_in)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(acq_trigger_in)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(acq_storage_qualifier_in)
+0 downto 0
+PARAMETER_STRING
+USR
+ constraint(crc)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(ir_in)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(ir_out)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(acq_data_out)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(acq_trigger_out)
+4 downto 0
+PARAMETER_STRING
+USR
+}
+# macro_sequence
+
+# end
+# entity
+sld_ela_control
+# storage
+db|First_project.(80).cnf
+db|First_project.(80).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_ela_control.vhd
+7bba1fa11b3e14a45218359258ca6721
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ip_major_version
+6
+PARAMETER_SIGNED_DEC
+USR
+ip_minor_version
+0
+PARAMETER_SIGNED_DEC
+USR
+common_ip_version
+0
+PARAMETER_SIGNED_DEC
+USR
+trigger_input_width
+5
+PARAMETER_SIGNED_DEC
+USR
+trigger_level
+3
+PARAMETER_SIGNED_DEC
+USR
+trigger_in_enabled
+1
+PARAMETER_SIGNED_DEC
+USR
+advanced_trigger_entity
+basic,1,basic,1,basic,1,
+PARAMETER_STRING
+USR
+enable_advanced_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+trigger_level_pipeline
+1
+PARAMETER_SIGNED_DEC
+USR
+ela_status_bits
+4
+PARAMETER_SIGNED_DEC
+USR
+mem_address_bits
+13
+PARAMETER_SIGNED_DEC
+USR
+sample_depth
+8192
+PARAMETER_SIGNED_DEC
+USR
+inversion_mask_length
+1
+PARAMETER_SIGNED_DEC
+USR
+inversion_mask
+0
+PARAMETER_UNSIGNED_BIN
+USR
+power_up_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+state_bits
+11
+PARAMETER_SIGNED_DEC
+USR
+segment_size_bits
+13
+PARAMETER_SIGNED_DEC
+USR
+state_flow_mgr_entity
+state_flow_mgr_entity.vhd
+PARAMETER_STRING
+USR
+state_flow_use_generated
+0
+PARAMETER_SIGNED_DEC
+USR
+current_resource_width
+1
+PARAMETER_SIGNED_DEC
+USR
+storage_qualifier_width
+1
+PARAMETER_SIGNED_DEC
+USR
+storage_qualifier_mode
+OFF
+PARAMETER_STRING
+USR
+storage_qualifier_enable_advanced_condition
+0
+PARAMETER_SIGNED_DEC
+USR
+storage_qualifier_inversion_mask_length
+0
+PARAMETER_SIGNED_DEC
+USR
+storage_qualifier_advanced_condition_entity
+basic
+PARAMETER_STRING
+USR
+storage_qualifier_pipeline
+0
+PARAMETER_SIGNED_DEC
+USR
+ constraint(advanced_trigger_entity)
+1 to 24
+PARAMETER_STRING
+USR
+ constraint(inversion_mask)
+71 downto 71
+PARAMETER_STRING
+USR
+ constraint(state_flow_mgr_entity)
+1 to 25
+PARAMETER_STRING
+USR
+ constraint(storage_qualifier_mode)
+1 to 3
+PARAMETER_STRING
+USR
+ constraint(storage_qualifier_advanced_condition_entity)
+1 to 5
+PARAMETER_STRING
+USR
+ constraint(acq_trigger_in)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(storage_qualifier_in)
+0 downto 0
+PARAMETER_STRING
+USR
+ constraint(post_fill_count)
+12 downto 0
+PARAMETER_STRING
+USR
+ constraint(current_state)
+10 downto 0
+PARAMETER_STRING
+USR
+ constraint(trigger_out_mode)
+0 downto 0
+PARAMETER_STRING
+USR
+ constraint(current_resource_value)
+0 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+sld_signaltap.vhd
+bb05be3231843f26fbd10b13640dd9a
+}
+# macro_sequence
+
+# end
+# entity
+sld_ela_basic_multi_level_trigger
+# storage
+db|First_project.(81).cnf
+db|First_project.(81).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_ela_control.vhd
+7bba1fa11b3e14a45218359258ca6721
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ip_major_version
+6
+PARAMETER_SIGNED_DEC
+USR
+ip_minor_version
+0
+PARAMETER_SIGNED_DEC
+USR
+common_ip_version
+0
+PARAMETER_SIGNED_DEC
+USR
+trigger_level
+3
+PARAMETER_SIGNED_DEC
+USR
+data_bits
+5
+PARAMETER_SIGNED_DEC
+USR
+pipeline
+1
+PARAMETER_SIGNED_DEC
+USR
+inversion_mask_length
+1
+PARAMETER_SIGNED_DEC
+USR
+inversion_mask
+0
+PARAMETER_UNSIGNED_BIN
+USR
+power_up_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+ constraint(inversion_mask)
+0 downto 0
+PARAMETER_STRING
+USR
+ constraint(data_in)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(trigger_level_match_out)
+2 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+sld_signaltap.vhd
+bb05be3231843f26fbd10b13640dd9a
+}
+# macro_sequence
+
+# end
+# entity
+LPM_SHIFTREG
+# storage
+db|First_project.(82).cnf
+db|First_project.(82).cnf
+# case_insensitive
+# source_file
+lpm_shiftreg.tdf
+2195e120f82d11b09c2dfec81d060f9
+7
+# user_parameter {
+LPM_WIDTH
+45
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+RIGHT
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+SHIFTOUT
+-1
+3
+SHIFTIN
+-1
+3
+Q9
+-1
+3
+Q8
+-1
+3
+Q7
+-1
+3
+Q6
+-1
+3
+Q5
+-1
+3
+Q44
+-1
+3
+Q43
+-1
+3
+Q42
+-1
+3
+Q41
+-1
+3
+Q40
+-1
+3
+Q4
+-1
+3
+Q39
+-1
+3
+Q38
+-1
+3
+Q37
+-1
+3
+Q36
+-1
+3
+Q35
+-1
+3
+Q34
+-1
+3
+Q33
+-1
+3
+Q32
+-1
+3
+Q31
+-1
+3
+Q30
+-1
+3
+Q3
+-1
+3
+Q29
+-1
+3
+Q28
+-1
+3
+Q27
+-1
+3
+Q26
+-1
+3
+Q25
+-1
+3
+Q24
+-1
+3
+Q23
+-1
+3
+Q22
+-1
+3
+Q21
+-1
+3
+Q20
+-1
+3
+Q2
+-1
+3
+Q19
+-1
+3
+Q18
+-1
+3
+Q17
+-1
+3
+Q16
+-1
+3
+Q15
+-1
+3
+Q14
+-1
+3
+Q13
+-1
+3
+Q12
+-1
+3
+Q11
+-1
+3
+Q10
+-1
+3
+Q1
+-1
+3
+Q0
+-1
+3
+ENABLE
+-1
+3
+CLOCK
+-1
+3
+ACLR
+-1
+3
+}
+# include_file {
+dffeea.inc
+f11711657cd42ee78437f4349496034
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+aglobal111.inc
+9cc1f9de5ad83fc94dd171c3f7986bd
+}
+# macro_sequence
+
+# end
+# entity
+sld_mbpmg
+# storage
+db|First_project.(83).cnf
+db|First_project.(83).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_mbpmg.vhd
+8c20157ded5c90fa806ef35597f9ab
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ip_major_version
+6
+PARAMETER_SIGNED_DEC
+USR
+ip_minor_version
+0
+PARAMETER_SIGNED_DEC
+USR
+common_ip_version
+0
+PARAMETER_SIGNED_DEC
+USR
+data_bits
+5
+PARAMETER_SIGNED_DEC
+USR
+pattern_bits
+3
+PARAMETER_SIGNED_DEC
+USR
+async_enabled
+0
+PARAMETER_SIGNED_DEC
+USR
+sync_enabled
+1
+PARAMETER_SIGNED_DEC
+USR
+pipeline
+1
+PARAMETER_SIGNED_DEC
+USR
+ constraint(data_in)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(pattern_in)
+14 downto 0
+PARAMETER_STRING
+USR
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram
+# storage
+db|First_project.(84).cnf
+db|First_project.(84).cnf
+# case_insensitive
+# source_file
+altsyncram.tdf
+5563b8a11ee06796d9858b2fb8665e
+7
+# user_parameter {
+BYTE_SIZE_BLOCK
+8
+PARAMETER_UNKNOWN
+DEF
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+WIDTH_BYTEENA
+1
+PARAMETER_UNKNOWN
+DEF
+OPERATION_MODE
+DUAL_PORT
+PARAMETER_UNKNOWN
+USR
+WIDTH_A
+5
+PARAMETER_SIGNED_DEC
+USR
+WIDTHAD_A
+13
+PARAMETER_SIGNED_DEC
+USR
+NUMWORDS_A
+0
+PARAMETER_SIGNED_DEC
+USR
+OUTDATA_REG_A
+UNREGISTERED
+PARAMETER_UNKNOWN
+USR
+ADDRESS_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+OUTDATA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+WRCONTROL_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+INDATA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+BYTEENA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+WIDTH_B
+5
+PARAMETER_SIGNED_DEC
+USR
+WIDTHAD_B
+13
+PARAMETER_SIGNED_DEC
+USR
+NUMWORDS_B
+0
+PARAMETER_SIGNED_DEC
+USR
+INDATA_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+USR
+WRCONTROL_WRADDRESS_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+USR
+RDCONTROL_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+USR
+ADDRESS_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+USR
+OUTDATA_REG_B
+UNREGISTERED
+PARAMETER_UNKNOWN
+USR
+BYTEENA_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+USR
+INDATA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+USR
+WRCONTROL_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+USR
+ADDRESS_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+USR
+OUTDATA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+USR
+RDCONTROL_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+USR
+BYTEENA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+USR
+WIDTH_BYTEENA_A
+1
+PARAMETER_SIGNED_DEC
+USR
+WIDTH_BYTEENA_B
+1
+PARAMETER_SIGNED_DEC
+USR
+RAM_BLOCK_TYPE
+AUTO
+PARAMETER_UNKNOWN
+USR
+BYTE_SIZE
+8
+PARAMETER_SIGNED_DEC
+USR
+READ_DURING_WRITE_MODE_MIXED_PORTS
+DONT_CARE
+PARAMETER_UNKNOWN
+USR
+READ_DURING_WRITE_MODE_PORT_A
+NEW_DATA_NO_NBE_READ
+PARAMETER_UNKNOWN
+USR
+READ_DURING_WRITE_MODE_PORT_B
+NEW_DATA_NO_NBE_READ
+PARAMETER_UNKNOWN
+USR
+INIT_FILE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+INIT_FILE_LAYOUT
+PORT_A
+PARAMETER_UNKNOWN
+USR
+MAXIMUM_DEPTH
+0
+PARAMETER_SIGNED_DEC
+USR
+CLOCK_ENABLE_INPUT_A
+NORMAL
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_INPUT_B
+NORMAL
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_OUTPUT_A
+NORMAL
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_OUTPUT_B
+NORMAL
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_CORE_A
+USE_INPUT_CLKEN
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_CORE_B
+USE_INPUT_CLKEN
+PARAMETER_UNKNOWN
+USR
+ENABLE_ECC
+FALSE
+PARAMETER_UNKNOWN
+USR
+WIDTH_ECCSTATUS
+3
+PARAMETER_SIGNED_DEC
+USR
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+altsyncram_ip14
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+wren_a
+-1
+3
+q_b4
+-1
+3
+q_b3
+-1
+3
+q_b2
+-1
+3
+q_b1
+-1
+3
+q_b0
+-1
+3
+data_a4
+-1
+3
+data_a3
+-1
+3
+data_a2
+-1
+3
+data_a1
+-1
+3
+data_a0
+-1
+3
+clocken1
+-1
+3
+clock1
+-1
+3
+clock0
+-1
+3
+address_b9
+-1
+3
+address_b8
+-1
+3
+address_b7
+-1
+3
+address_b6
+-1
+3
+address_b5
+-1
+3
+address_b4
+-1
+3
+address_b3
+-1
+3
+address_b2
+-1
+3
+address_b12
+-1
+3
+address_b11
+-1
+3
+address_b10
+-1
+3
+address_b1
+-1
+3
+address_b0
+-1
+3
+address_a9
+-1
+3
+address_a8
+-1
+3
+address_a7
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a12
+-1
+3
+address_a11
+-1
+3
+address_a10
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# include_file {
+a_rdenreg.inc
+3fcdce755959d5a8afbe64788d21fb
+altram.inc
+ad5518b39ffd3cf1df377e6360d1c9b6
+lpm_decode.inc
+10da69a8bbd590d66779e7a142f73790
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+altrom.inc
+192b74eafa8debf2248ea73881e77f91
+altdpram.inc
+2f9e6727b678ffd76e72bc5a95a2630
+stratix_ram_block.inc
+e3a03868917fb3dd57b6ed1dd195f22
+aglobal111.inc
+9cc1f9de5ad83fc94dd171c3f7986bd
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram_ip14
+# storage
+db|First_project.(85).cnf
+db|First_project.(85).cnf
+# case_insensitive
+# source_file
+db|altsyncram_ip14.tdf
+a9369e9c063531f5732e7aa16c1bd3
+7
+# used_port {
+wren_a
+-1
+3
+q_b4
+-1
+3
+q_b3
+-1
+3
+q_b2
+-1
+3
+q_b1
+-1
+3
+q_b0
+-1
+3
+data_a4
+-1
+3
+data_a3
+-1
+3
+data_a2
+-1
+3
+data_a1
+-1
+3
+data_a0
+-1
+3
+clocken1
+-1
+3
+clock1
+-1
+3
+clock0
+-1
+3
+address_b9
+-1
+3
+address_b8
+-1
+3
+address_b7
+-1
+3
+address_b6
+-1
+3
+address_b5
+-1
+3
+address_b4
+-1
+3
+address_b3
+-1
+3
+address_b2
+-1
+3
+address_b12
+-1
+3
+address_b11
+-1
+3
+address_b10
+-1
+3
+address_b1
+-1
+3
+address_b0
+-1
+3
+address_a9
+-1
+3
+address_a8
+-1
+3
+address_a7
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a12
+-1
+3
+address_a11
+-1
+3
+address_a10
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram_qdq1
+# storage
+db|First_project.(86).cnf
+db|First_project.(86).cnf
+# case_insensitive
+# source_file
+db|altsyncram_qdq1.tdf
+9713a24be8c02faf901ee915df1b246d
+7
+# used_port {
+wren_b
+-1
+3
+q_a4
+-1
+3
+q_a3
+-1
+3
+q_a2
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+data_b4
+-1
+3
+data_b3
+-1
+3
+data_b2
+-1
+3
+data_b1
+-1
+3
+data_b0
+-1
+3
+clocken1
+-1
+3
+clocken0
+-1
+3
+clock1
+-1
+3
+clock0
+-1
+3
+address_b9
+-1
+3
+address_b8
+-1
+3
+address_b7
+-1
+3
+address_b6
+-1
+3
+address_b5
+-1
+3
+address_b4
+-1
+3
+address_b3
+-1
+3
+address_b2
+-1
+3
+address_b12
+-1
+3
+address_b11
+-1
+3
+address_b10
+-1
+3
+address_b1
+-1
+3
+address_b0
+-1
+3
+address_a9
+-1
+3
+address_a8
+-1
+3
+address_a7
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a12
+-1
+3
+address_a11
+-1
+3
+address_a10
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+wren_a
+-1
+1
+data_a4
+-1
+2
+data_a3
+-1
+2
+data_a2
+-1
+2
+data_a1
+-1
+2
+data_a0
+-1
+2
+}
+# macro_sequence
+
+# end
+# entity
+mux_eib
+# storage
+db|First_project.(87).cnf
+db|First_project.(87).cnf
+# case_insensitive
+# source_file
+db|mux_eib.tdf
+9041a53848f6d363d7e6203388f5
+7
+# used_port {
+sel0
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+sld_offload_buffer_mgr
+# storage
+db|First_project.(88).cnf
+db|First_project.(88).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_buffer_manager.vhd
+a855e34184257745f5b4f192823d15
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ip_major_version
+6
+PARAMETER_SIGNED_DEC
+USR
+ip_minor_version
+0
+PARAMETER_SIGNED_DEC
+USR
+common_ip_version
+0
+PARAMETER_SIGNED_DEC
+USR
+buffer_depth
+8192
+PARAMETER_SIGNED_DEC
+USR
+segment_count
+1
+PARAMETER_SIGNED_DEC
+USR
+mem_address_bits
+13
+PARAMETER_SIGNED_DEC
+USR
+status_address_bits
+1
+PARAMETER_SIGNED_DEC
+USR
+data_bits
+5
+PARAMETER_SIGNED_DEC
+USR
+status_bits
+27
+PARAMETER_SIGNED_DEC
+USR
+data_bit_cntr_bits
+3
+PARAMETER_SIGNED_DEC
+USR
+status_bit_cntr_bits
+5
+PARAMETER_SIGNED_DEC
+USR
+ela_status_bits
+4
+PARAMETER_SIGNED_DEC
+USR
+ constraint(buffer_read_data_out)
+4 downto 0
+PARAMETER_STRING
+USR
+ constraint(status_read_data_out)
+26 downto 0
+PARAMETER_STRING
+USR
+ constraint(trigger_write_address)
+12 downto 0
+PARAMETER_STRING
+USR
+ constraint(last_buffer_write_address)
+12 downto 0
+PARAMETER_STRING
+USR
+ constraint(buffer_read_address)
+12 downto 0
+PARAMETER_STRING
+USR
+ constraint(status_read_address)
+0 downto 0
+PARAMETER_STRING
+USR
+}
+# macro_sequence
+
+# end
+# entity
+LPM_COUNTER
+# storage
+db|First_project.(89).cnf
+db|First_project.(89).cnf
+# case_insensitive
+# source_file
+lpm_counter.tdf
+7362342b67d30c8d21ca468696d37dd
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+3
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+DEFAULT
+PARAMETER_UNKNOWN
+DEF
+LPM_MODULUS
+5
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_CONNECTIVITY
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+OFF
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_aai
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+SCLR
+-1
+3
+Q2
+-1
+3
+Q1
+-1
+3
+Q0
+-1
+3
+CLOCK
+-1
+3
+}
+# include_file {
+dffeea.inc
+f11711657cd42ee78437f4349496034
+lpm_decode.inc
+10da69a8bbd590d66779e7a142f73790
+lpm_compare.inc
+bbd3e8c93afb7320934629e5fb11566
+lpm_counter.inc
+c5cfeeabc5f2ab60b3453f6abbc42b41
+cmpconst.inc
+fe4bfdfa5310384231b99c696fe2e348
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+alt_counter_stratix.inc
+3e1db420f0a6e888a1525f4eff14d5be
+aglobal111.inc
+9cc1f9de5ad83fc94dd171c3f7986bd
+lpm_add_sub.inc
+144a73b61081a2a03554ff5acc5e8842
+}
+# macro_sequence
+
+# end
+# entity
+cntr_aai
+# storage
+db|First_project.(90).cnf
+db|First_project.(90).cnf
+# case_insensitive
+# source_file
+db|cntr_aai.tdf
+bc711eb529f454d40347c9e82947a1
+7
+# used_port {
+sclr
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+cmpr_7cc
+# storage
+db|First_project.(91).cnf
+db|First_project.(91).cnf
+# case_insensitive
+# source_file
+db|cmpr_7cc.tdf
+b4f623372ebe5ec2137a693f1181ebf
+7
+# used_port {
+datab1
+-1
+3
+datab0
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aeb
+-1
+3
+datab2
+-1
+2
+}
+# macro_sequence
+
+# end
+# entity
+LPM_SHIFTREG
+# storage
+db|First_project.(92).cnf
+db|First_project.(92).cnf
+# case_insensitive
+# source_file
+lpm_shiftreg.tdf
+2195e120f82d11b09c2dfec81d060f9
+7
+# user_parameter {
+LPM_WIDTH
+5
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+RIGHT
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+SHIFTOUT
+-1
+3
+LOAD
+-1
+3
+DATA4
+-1
+3
+DATA3
+-1
+3
+DATA2
+-1
+3
+DATA1
+-1
+3
+DATA0
+-1
+3
+CLOCK
+-1
+3
+ACLR
+-1
+3
+SHIFTIN
+-1
+2
+ENABLE
+-1
+2
+}
+# include_file {
+dffeea.inc
+f11711657cd42ee78437f4349496034
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+aglobal111.inc
+9cc1f9de5ad83fc94dd171c3f7986bd
+}
+# macro_sequence
+
+# end
+# entity
+sld_signaltap
+# storage
+db|First_project.(93).cnf
+db|First_project.(93).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_signaltap.vhd
+bb05be3231843f26fbd10b13640dd9a
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+lpm_type
+sld_signaltap
+PARAMETER_STRING
+DEF
+sld_node_info
+805334528
+PARAMETER_UNKNOWN
+USR
+SLD_IP_VERSION
+6
+PARAMETER_SIGNED_DEC
+DEF
+SLD_IP_MINOR_VERSION
+0
+PARAMETER_SIGNED_DEC
+DEF
+SLD_COMMON_IP_VERSION
+0
+PARAMETER_SIGNED_DEC
+DEF
+sld_data_bits
+7
+PARAMETER_UNKNOWN
+USR
+sld_trigger_bits
+7
+PARAMETER_UNKNOWN
+USR
+SLD_NODE_CRC_BITS
+32
+PARAMETER_SIGNED_DEC
+DEF
+sld_node_crc_hiword
+32177
+PARAMETER_UNKNOWN
+USR
+sld_node_crc_loword
+58801
+PARAMETER_UNKNOWN
+USR
+SLD_INCREMENTAL_ROUTING
+0
+PARAMETER_SIGNED_DEC
+DEF
+sld_sample_depth
+8192
+PARAMETER_UNKNOWN
+USR
+sld_segment_size
+8192
+PARAMETER_UNKNOWN
+USR
+SLD_RAM_BLOCK_TYPE
+AUTO
+PARAMETER_STRING
+DEF
+sld_state_bits
+11
+PARAMETER_UNKNOWN
+USR
+sld_buffer_full_stop
+1
+PARAMETER_UNKNOWN
+USR
+SLD_MEM_ADDRESS_BITS
+7
+PARAMETER_SIGNED_DEC
+DEF
+SLD_DATA_BIT_CNTR_BITS
+4
+PARAMETER_SIGNED_DEC
+DEF
+sld_trigger_level
+3
+PARAMETER_UNKNOWN
+USR
+sld_trigger_in_enabled
+1
+PARAMETER_UNKNOWN
+USR
+sld_advanced_trigger_entity
+basic,1,basic,1,basic,1,
+PARAMETER_UNKNOWN
+USR
+sld_trigger_level_pipeline
+1
+PARAMETER_UNKNOWN
+USR
+sld_enable_advanced_trigger
+0
+PARAMETER_UNKNOWN
+USR
+SLD_ADVANCED_TRIGGER_1
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_2
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_3
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_4
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_5
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_6
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_7
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_8
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_9
+NONE
+PARAMETER_STRING
+DEF
+SLD_ADVANCED_TRIGGER_10
+NONE
+PARAMETER_STRING
+DEF
+sld_inversion_mask_length
+90
+PARAMETER_UNKNOWN
+USR
+sld_inversion_mask
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+PARAMETER_UNKNOWN
+USR
+sld_power_up_trigger
+0
+PARAMETER_UNKNOWN
+USR
+SLD_STATE_FLOW_MGR_ENTITY
+state_flow_mgr_entity.vhd
+PARAMETER_STRING
+DEF
+sld_state_flow_use_generated
+0
+PARAMETER_UNKNOWN
+USR
+sld_current_resource_width
+1
+PARAMETER_UNKNOWN
+USR
+sld_attribute_mem_mode
+OFF
+PARAMETER_UNKNOWN
+USR
+SLD_STORAGE_QUALIFIER_BITS
+1
+PARAMETER_SIGNED_DEC
+DEF
+SLD_STORAGE_QUALIFIER_GAP_RECORD
+0
+PARAMETER_SIGNED_DEC
+DEF
+SLD_STORAGE_QUALIFIER_MODE
+OFF
+PARAMETER_STRING
+DEF
+SLD_STORAGE_QUALIFIER_ENABLE_ADVANCED_CONDITION
+0
+PARAMETER_SIGNED_DEC
+DEF
+sld_storage_qualifier_inversion_mask_length
+0
+PARAMETER_UNKNOWN
+USR
+SLD_STORAGE_QUALIFIER_ADVANCED_CONDITION_ENTITY
+basic
+PARAMETER_STRING
+DEF
+SLD_STORAGE_QUALIFIER_PIPELINE
+0
+PARAMETER_SIGNED_DEC
+DEF
+}
+# macro_sequence
+
+# end
+# entity
+sld_signaltap_impl
+# storage
+db|First_project.(94).cnf
+db|First_project.(94).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_signaltap.vhd
+bb05be3231843f26fbd10b13640dd9a
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+sld_ip_version
+6
+PARAMETER_SIGNED_DEC
+USR
+sld_ip_minor_version
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_common_ip_version
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_data_bits
+7
+PARAMETER_SIGNED_DEC
+USR
+sld_trigger_bits
+7
+PARAMETER_SIGNED_DEC
+USR
+sld_node_crc_bits
+32
+PARAMETER_SIGNED_DEC
+USR
+sld_node_crc_hiword
+32177
+PARAMETER_SIGNED_DEC
+USR
+sld_node_crc_loword
+58801
+PARAMETER_SIGNED_DEC
+USR
+sld_incremental_routing
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_sample_depth
+8192
+PARAMETER_SIGNED_DEC
+USR
+sld_segment_size
+8192
+PARAMETER_SIGNED_DEC
+USR
+sld_ram_block_type
+AUTO
+PARAMETER_STRING
+USR
+sld_state_bits
+11
+PARAMETER_SIGNED_DEC
+USR
+sld_buffer_full_stop
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_trigger_level
+3
+PARAMETER_SIGNED_DEC
+USR
+sld_trigger_in_enabled
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_advanced_trigger_entity
+basic,1,basic,1,basic,1,
+PARAMETER_STRING
+USR
+sld_trigger_level_pipeline
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_enable_advanced_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_advanced_trigger_1
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_2
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_3
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_4
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_5
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_6
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_7
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_8
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_9
+NONE
+PARAMETER_STRING
+USR
+sld_advanced_trigger_10
+NONE
+PARAMETER_STRING
+USR
+sld_inversion_mask_length
+90
+PARAMETER_SIGNED_DEC
+USR
+sld_inversion_mask
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+PARAMETER_UNSIGNED_BIN
+USR
+sld_power_up_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_state_flow_mgr_entity
+state_flow_mgr_entity.vhd
+PARAMETER_STRING
+USR
+sld_state_flow_use_generated
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_current_resource_width
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_attribute_mem_mode
+OFF
+PARAMETER_STRING
+USR
+sld_storage_qualifier_bits
+1
+PARAMETER_SIGNED_DEC
+USR
+sld_storage_qualifier_gap_record
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_storage_qualifier_mode
+OFF
+PARAMETER_STRING
+USR
+sld_storage_qualifier_enable_advanced_condition
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_storage_qualifier_inversion_mask_length
+0
+PARAMETER_SIGNED_DEC
+USR
+sld_storage_qualifier_advanced_condition_entity
+basic
+PARAMETER_STRING
+USR
+sld_storage_qualifier_pipeline
+0
+PARAMETER_SIGNED_DEC
+USR
+ constraint(sld_ram_block_type)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_entity)
+1 to 24
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_1)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_2)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_3)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_4)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_5)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_6)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_7)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_8)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_9)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_advanced_trigger_10)
+1 to 4
+PARAMETER_STRING
+USR
+ constraint(sld_inversion_mask)
+0 to 89
+PARAMETER_STRING
+USR
+ constraint(sld_state_flow_mgr_entity)
+1 to 25
+PARAMETER_STRING
+USR
+ constraint(sld_attribute_mem_mode)
+1 to 3
+PARAMETER_STRING
+USR
+ constraint(sld_storage_qualifier_mode)
+1 to 3
+PARAMETER_STRING
+USR
+ constraint(sld_storage_qualifier_advanced_condition_entity)
+1 to 5
+PARAMETER_STRING
+USR
+ constraint(acq_data_in)
+6 downto 0
+PARAMETER_STRING
+USR
+ constraint(acq_trigger_in)
+6 downto 0
+PARAMETER_STRING
+USR
+ constraint(acq_storage_qualifier_in)
+0 downto 0
+PARAMETER_STRING
+USR
+ constraint(crc)
+31 downto 0
+PARAMETER_STRING
+USR
+ constraint(ir_in)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(ir_out)
+7 downto 0
+PARAMETER_STRING
+USR
+ constraint(acq_data_out)
+6 downto 0
+PARAMETER_STRING
+USR
+ constraint(acq_trigger_out)
+6 downto 0
+PARAMETER_STRING
+USR
+}
+# macro_sequence
+
+# end
+# entity
+sld_ela_control
+# storage
+db|First_project.(95).cnf
+db|First_project.(95).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_ela_control.vhd
+7bba1fa11b3e14a45218359258ca6721
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ip_major_version
+6
+PARAMETER_SIGNED_DEC
+USR
+ip_minor_version
+0
+PARAMETER_SIGNED_DEC
+USR
+common_ip_version
+0
+PARAMETER_SIGNED_DEC
+USR
+trigger_input_width
+7
+PARAMETER_SIGNED_DEC
+USR
+trigger_level
+3
+PARAMETER_SIGNED_DEC
+USR
+trigger_in_enabled
+1
+PARAMETER_SIGNED_DEC
+USR
+advanced_trigger_entity
+basic,1,basic,1,basic,1,
+PARAMETER_STRING
+USR
+enable_advanced_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+trigger_level_pipeline
+1
+PARAMETER_SIGNED_DEC
+USR
+ela_status_bits
+4
+PARAMETER_SIGNED_DEC
+USR
+mem_address_bits
+13
+PARAMETER_SIGNED_DEC
+USR
+sample_depth
+8192
+PARAMETER_SIGNED_DEC
+USR
+inversion_mask_length
+1
+PARAMETER_SIGNED_DEC
+USR
+inversion_mask
+0
+PARAMETER_UNSIGNED_BIN
+USR
+power_up_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+state_bits
+11
+PARAMETER_SIGNED_DEC
+USR
+segment_size_bits
+13
+PARAMETER_SIGNED_DEC
+USR
+state_flow_mgr_entity
+state_flow_mgr_entity.vhd
+PARAMETER_STRING
+USR
+state_flow_use_generated
+0
+PARAMETER_SIGNED_DEC
+USR
+current_resource_width
+1
+PARAMETER_SIGNED_DEC
+USR
+storage_qualifier_width
+1
+PARAMETER_SIGNED_DEC
+USR
+storage_qualifier_mode
+OFF
+PARAMETER_STRING
+USR
+storage_qualifier_enable_advanced_condition
+0
+PARAMETER_SIGNED_DEC
+USR
+storage_qualifier_inversion_mask_length
+0
+PARAMETER_SIGNED_DEC
+USR
+storage_qualifier_advanced_condition_entity
+basic
+PARAMETER_STRING
+USR
+storage_qualifier_pipeline
+0
+PARAMETER_SIGNED_DEC
+USR
+ constraint(advanced_trigger_entity)
+1 to 24
+PARAMETER_STRING
+USR
+ constraint(inversion_mask)
+89 downto 89
+PARAMETER_STRING
+USR
+ constraint(state_flow_mgr_entity)
+1 to 25
+PARAMETER_STRING
+USR
+ constraint(storage_qualifier_mode)
+1 to 3
+PARAMETER_STRING
+USR
+ constraint(storage_qualifier_advanced_condition_entity)
+1 to 5
+PARAMETER_STRING
+USR
+ constraint(acq_trigger_in)
+6 downto 0
+PARAMETER_STRING
+USR
+ constraint(storage_qualifier_in)
+0 downto 0
+PARAMETER_STRING
+USR
+ constraint(post_fill_count)
+12 downto 0
+PARAMETER_STRING
+USR
+ constraint(current_state)
+10 downto 0
+PARAMETER_STRING
+USR
+ constraint(trigger_out_mode)
+0 downto 0
+PARAMETER_STRING
+USR
+ constraint(current_resource_value)
+0 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+sld_signaltap.vhd
+bb05be3231843f26fbd10b13640dd9a
+}
+# macro_sequence
+
+# end
+# entity
+sld_ela_basic_multi_level_trigger
+# storage
+db|First_project.(96).cnf
+db|First_project.(96).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_ela_control.vhd
+7bba1fa11b3e14a45218359258ca6721
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ip_major_version
+6
+PARAMETER_SIGNED_DEC
+USR
+ip_minor_version
+0
+PARAMETER_SIGNED_DEC
+USR
+common_ip_version
+0
+PARAMETER_SIGNED_DEC
+USR
+trigger_level
+3
+PARAMETER_SIGNED_DEC
+USR
+data_bits
+7
+PARAMETER_SIGNED_DEC
+USR
+pipeline
+1
+PARAMETER_SIGNED_DEC
+USR
+inversion_mask_length
+1
+PARAMETER_SIGNED_DEC
+USR
+inversion_mask
+0
+PARAMETER_UNSIGNED_BIN
+USR
+power_up_trigger
+0
+PARAMETER_SIGNED_DEC
+USR
+ constraint(inversion_mask)
+0 downto 0
+PARAMETER_STRING
+USR
+ constraint(data_in)
+6 downto 0
+PARAMETER_STRING
+USR
+ constraint(trigger_level_match_out)
+2 downto 0
+PARAMETER_STRING
+USR
+}
+# include_file {
+sld_signaltap.vhd
+bb05be3231843f26fbd10b13640dd9a
+}
+# macro_sequence
+
+# end
+# entity
+LPM_SHIFTREG
+# storage
+db|First_project.(97).cnf
+db|First_project.(97).cnf
+# case_insensitive
+# source_file
+lpm_shiftreg.tdf
+2195e120f82d11b09c2dfec81d060f9
+7
+# user_parameter {
+LPM_WIDTH
+63
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+RIGHT
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+SHIFTOUT
+-1
+3
+SHIFTIN
+-1
+3
+Q9
+-1
+3
+Q8
+-1
+3
+Q7
+-1
+3
+Q62
+-1
+3
+Q61
+-1
+3
+Q60
+-1
+3
+Q6
+-1
+3
+Q59
+-1
+3
+Q58
+-1
+3
+Q57
+-1
+3
+Q56
+-1
+3
+Q55
+-1
+3
+Q54
+-1
+3
+Q53
+-1
+3
+Q52
+-1
+3
+Q51
+-1
+3
+Q50
+-1
+3
+Q5
+-1
+3
+Q49
+-1
+3
+Q48
+-1
+3
+Q47
+-1
+3
+Q46
+-1
+3
+Q45
+-1
+3
+Q44
+-1
+3
+Q43
+-1
+3
+Q42
+-1
+3
+Q41
+-1
+3
+Q40
+-1
+3
+Q4
+-1
+3
+Q39
+-1
+3
+Q38
+-1
+3
+Q37
+-1
+3
+Q36
+-1
+3
+Q35
+-1
+3
+Q34
+-1
+3
+Q33
+-1
+3
+Q32
+-1
+3
+Q31
+-1
+3
+Q30
+-1
+3
+Q3
+-1
+3
+Q29
+-1
+3
+Q28
+-1
+3
+Q27
+-1
+3
+Q26
+-1
+3
+Q25
+-1
+3
+Q24
+-1
+3
+Q23
+-1
+3
+Q22
+-1
+3
+Q21
+-1
+3
+Q20
+-1
+3
+Q2
+-1
+3
+Q19
+-1
+3
+Q18
+-1
+3
+Q17
+-1
+3
+Q16
+-1
+3
+Q15
+-1
+3
+Q14
+-1
+3
+Q13
+-1
+3
+Q12
+-1
+3
+Q11
+-1
+3
+Q10
+-1
+3
+Q1
+-1
+3
+Q0
+-1
+3
+ENABLE
+-1
+3
+CLOCK
+-1
+3
+ACLR
+-1
+3
+}
+# include_file {
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+aglobal111.inc
+9cc1f9de5ad83fc94dd171c3f7986bd
+dffeea.inc
+f11711657cd42ee78437f4349496034
+}
+# macro_sequence
+
+# end
+# entity
+sld_mbpmg
+# storage
+db|First_project.(98).cnf
+db|First_project.(98).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_mbpmg.vhd
+8c20157ded5c90fa806ef35597f9ab
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ip_major_version
+6
+PARAMETER_SIGNED_DEC
+USR
+ip_minor_version
+0
+PARAMETER_SIGNED_DEC
+USR
+common_ip_version
+0
+PARAMETER_SIGNED_DEC
+USR
+data_bits
+7
+PARAMETER_SIGNED_DEC
+USR
+pattern_bits
+3
+PARAMETER_SIGNED_DEC
+USR
+async_enabled
+0
+PARAMETER_SIGNED_DEC
+USR
+sync_enabled
+1
+PARAMETER_SIGNED_DEC
+USR
+pipeline
+1
+PARAMETER_SIGNED_DEC
+USR
+ constraint(data_in)
+6 downto 0
+PARAMETER_STRING
+USR
+ constraint(pattern_in)
+20 downto 0
+PARAMETER_STRING
+USR
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram
+# storage
+db|First_project.(99).cnf
+db|First_project.(99).cnf
+# case_insensitive
+# source_file
+altsyncram.tdf
+5563b8a11ee06796d9858b2fb8665e
+7
+# user_parameter {
+BYTE_SIZE_BLOCK
+8
+PARAMETER_UNKNOWN
+DEF
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+WIDTH_BYTEENA
+1
+PARAMETER_UNKNOWN
+DEF
+OPERATION_MODE
+DUAL_PORT
+PARAMETER_UNKNOWN
+USR
+WIDTH_A
+7
+PARAMETER_SIGNED_DEC
+USR
+WIDTHAD_A
+13
+PARAMETER_SIGNED_DEC
+USR
+NUMWORDS_A
+0
+PARAMETER_SIGNED_DEC
+USR
+OUTDATA_REG_A
+UNREGISTERED
+PARAMETER_UNKNOWN
+USR
+ADDRESS_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+OUTDATA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+WRCONTROL_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+INDATA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+BYTEENA_ACLR_A
+NONE
+PARAMETER_UNKNOWN
+USR
+WIDTH_B
+7
+PARAMETER_SIGNED_DEC
+USR
+WIDTHAD_B
+13
+PARAMETER_SIGNED_DEC
+USR
+NUMWORDS_B
+0
+PARAMETER_SIGNED_DEC
+USR
+INDATA_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+USR
+WRCONTROL_WRADDRESS_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+USR
+RDCONTROL_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+USR
+ADDRESS_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+USR
+OUTDATA_REG_B
+UNREGISTERED
+PARAMETER_UNKNOWN
+USR
+BYTEENA_REG_B
+CLOCK1
+PARAMETER_UNKNOWN
+USR
+INDATA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+USR
+WRCONTROL_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+USR
+ADDRESS_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+USR
+OUTDATA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+USR
+RDCONTROL_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+USR
+BYTEENA_ACLR_B
+NONE
+PARAMETER_UNKNOWN
+USR
+WIDTH_BYTEENA_A
+1
+PARAMETER_SIGNED_DEC
+USR
+WIDTH_BYTEENA_B
+1
+PARAMETER_SIGNED_DEC
+USR
+RAM_BLOCK_TYPE
+AUTO
+PARAMETER_UNKNOWN
+USR
+BYTE_SIZE
+8
+PARAMETER_SIGNED_DEC
+USR
+READ_DURING_WRITE_MODE_MIXED_PORTS
+DONT_CARE
+PARAMETER_UNKNOWN
+USR
+READ_DURING_WRITE_MODE_PORT_A
+NEW_DATA_NO_NBE_READ
+PARAMETER_UNKNOWN
+USR
+READ_DURING_WRITE_MODE_PORT_B
+NEW_DATA_NO_NBE_READ
+PARAMETER_UNKNOWN
+USR
+INIT_FILE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+INIT_FILE_LAYOUT
+PORT_A
+PARAMETER_UNKNOWN
+USR
+MAXIMUM_DEPTH
+0
+PARAMETER_SIGNED_DEC
+USR
+CLOCK_ENABLE_INPUT_A
+NORMAL
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_INPUT_B
+NORMAL
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_OUTPUT_A
+NORMAL
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_OUTPUT_B
+NORMAL
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_CORE_A
+USE_INPUT_CLKEN
+PARAMETER_UNKNOWN
+USR
+CLOCK_ENABLE_CORE_B
+USE_INPUT_CLKEN
+PARAMETER_UNKNOWN
+USR
+ENABLE_ECC
+FALSE
+PARAMETER_UNKNOWN
+USR
+WIDTH_ECCSTATUS
+3
+PARAMETER_SIGNED_DEC
+USR
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+altsyncram_mp14
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+wren_a
+-1
+3
+q_b6
+-1
+3
+q_b5
+-1
+3
+q_b4
+-1
+3
+q_b3
+-1
+3
+q_b2
+-1
+3
+q_b1
+-1
+3
+q_b0
+-1
+3
+data_a6
+-1
+3
+data_a5
+-1
+3
+data_a4
+-1
+3
+data_a3
+-1
+3
+data_a2
+-1
+3
+data_a1
+-1
+3
+data_a0
+-1
+3
+clocken1
+-1
+3
+clock1
+-1
+3
+clock0
+-1
+3
+address_b9
+-1
+3
+address_b8
+-1
+3
+address_b7
+-1
+3
+address_b6
+-1
+3
+address_b5
+-1
+3
+address_b4
+-1
+3
+address_b3
+-1
+3
+address_b2
+-1
+3
+address_b12
+-1
+3
+address_b11
+-1
+3
+address_b10
+-1
+3
+address_b1
+-1
+3
+address_b0
+-1
+3
+address_a9
+-1
+3
+address_a8
+-1
+3
+address_a7
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a12
+-1
+3
+address_a11
+-1
+3
+address_a10
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# include_file {
+stratix_ram_block.inc
+e3a03868917fb3dd57b6ed1dd195f22
+a_rdenreg.inc
+3fcdce755959d5a8afbe64788d21fb
+aglobal111.inc
+9cc1f9de5ad83fc94dd171c3f7986bd
+altram.inc
+ad5518b39ffd3cf1df377e6360d1c9b6
+lpm_decode.inc
+10da69a8bbd590d66779e7a142f73790
+lpm_mux.inc
+dd87bed9959d6126db09970164b7ba6
+altrom.inc
+192b74eafa8debf2248ea73881e77f91
+altdpram.inc
+2f9e6727b678ffd76e72bc5a95a2630
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram_mp14
+# storage
+db|First_project.(100).cnf
+db|First_project.(100).cnf
+# case_insensitive
+# source_file
+db|altsyncram_mp14.tdf
+bef13f1c8359ecac64156f6cf86c419
+7
+# used_port {
+wren_a
+-1
+3
+q_b6
+-1
+3
+q_b5
+-1
+3
+q_b4
+-1
+3
+q_b3
+-1
+3
+q_b2
+-1
+3
+q_b1
+-1
+3
+q_b0
+-1
+3
+data_a6
+-1
+3
+data_a5
+-1
+3
+data_a4
+-1
+3
+data_a3
+-1
+3
+data_a2
+-1
+3
+data_a1
+-1
+3
+data_a0
+-1
+3
+clocken1
+-1
+3
+clock1
+-1
+3
+clock0
+-1
+3
+address_b9
+-1
+3
+address_b8
+-1
+3
+address_b7
+-1
+3
+address_b6
+-1
+3
+address_b5
+-1
+3
+address_b4
+-1
+3
+address_b3
+-1
+3
+address_b2
+-1
+3
+address_b12
+-1
+3
+address_b11
+-1
+3
+address_b10
+-1
+3
+address_b1
+-1
+3
+address_b0
+-1
+3
+address_a9
+-1
+3
+address_a8
+-1
+3
+address_a7
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a12
+-1
+3
+address_a11
+-1
+3
+address_a10
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram_udq1
+# storage
+db|First_project.(101).cnf
+db|First_project.(101).cnf
+# case_insensitive
+# source_file
+db|altsyncram_udq1.tdf
+cddc551084458bdbe6fbfe60c65577e7
+7
+# used_port {
+wren_b
+-1
+3
+q_a6
+-1
+3
+q_a5
+-1
+3
+q_a4
+-1
+3
+q_a3
+-1
+3
+q_a2
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+data_b6
+-1
+3
+data_b5
+-1
+3
+data_b4
+-1
+3
+data_b3
+-1
+3
+data_b2
+-1
+3
+data_b1
+-1
+3
+data_b0
+-1
+3
+clocken1
+-1
+3
+clocken0
+-1
+3
+clock1
+-1
+3
+clock0
+-1
+3
+address_b9
+-1
+3
+address_b8
+-1
+3
+address_b7
+-1
+3
+address_b6
+-1
+3
+address_b5
+-1
+3
+address_b4
+-1
+3
+address_b3
+-1
+3
+address_b2
+-1
+3
+address_b12
+-1
+3
+address_b11
+-1
+3
+address_b10
+-1
+3
+address_b1
+-1
+3
+address_b0
+-1
+3
+address_a9
+-1
+3
+address_a8
+-1
+3
+address_a7
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a12
+-1
+3
+address_a11
+-1
+3
+address_a10
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+wren_a
+-1
+1
+data_a6
+-1
+2
+data_a5
+-1
+2
+data_a4
+-1
+2
+data_a3
+-1
+2
+data_a2
+-1
+2
+data_a1
+-1
+2
+data_a0
+-1
+2
+}
+# macro_sequence
+
+# end
+# entity
+mux_gib
+# storage
+db|First_project.(102).cnf
+db|First_project.(102).cnf
+# case_insensitive
+# source_file
+db|mux_gib.tdf
+e939dde35ce4c0c5183039506b997c3d
+7
+# used_port {
+sel0
+-1
+3
+result6
+-1
+3
+result5
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data13
+-1
+3
+data12
+-1
+3
+data11
+-1
+3
+data10
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+sld_offload_buffer_mgr
+# storage
+db|First_project.(103).cnf
+db|First_project.(103).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sld_buffer_manager.vhd
+a855e34184257745f5b4f192823d15
+5
+# internal_option {
+IP_SHOW_ELABORATION_MESSAGES
+OFF
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ip_major_version
+6
+PARAMETER_SIGNED_DEC
+USR
+ip_minor_version
+0
+PARAMETER_SIGNED_DEC
+USR
+common_ip_version
+0
+PARAMETER_SIGNED_DEC
+USR
+buffer_depth
+8192
+PARAMETER_SIGNED_DEC
+USR
+segment_count
+1
+PARAMETER_SIGNED_DEC
+USR
+mem_address_bits
+13
+PARAMETER_SIGNED_DEC
+USR
+status_address_bits
+1
+PARAMETER_SIGNED_DEC
+USR
+data_bits
+7
+PARAMETER_SIGNED_DEC
+USR
+status_bits
+27
+PARAMETER_SIGNED_DEC
+USR
+data_bit_cntr_bits
+3
+PARAMETER_SIGNED_DEC
+USR
+status_bit_cntr_bits
+5
+PARAMETER_SIGNED_DEC
+USR
+ela_status_bits
+4
+PARAMETER_SIGNED_DEC
+USR
+ constraint(buffer_read_data_out)
+6 downto 0
+PARAMETER_STRING
+USR
+ constraint(status_read_data_out)
+26 downto 0
+PARAMETER_STRING
+USR
+ constraint(trigger_write_address)
+12 downto 0
+PARAMETER_STRING
+USR
+ constraint(last_buffer_write_address)
+12 downto 0
+PARAMETER_STRING
+USR
+ constraint(buffer_read_address)
+12 downto 0
+PARAMETER_STRING
+USR
+ constraint(status_read_address)
+0 downto 0
+PARAMETER_STRING
+USR
+}
+# macro_sequence
+
+# end
+# entity
+LPM_COUNTER
+# storage
+db|First_project.(104).cnf
+db|First_project.(104).cnf
+# case_insensitive
+# source_file
+lpm_counter.tdf
+7362342b67d30c8d21ca468696d37dd
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+3
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+DEFAULT
+PARAMETER_UNKNOWN
+DEF
+LPM_MODULUS
+7
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_CONNECTIVITY
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+OFF
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_cai
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+SCLR
+-1
+3
+Q2
+-1
+3
+Q1
+-1
+3
+Q0
+-1
+3
+CLOCK
+-1
+3
+}
+# include_file {
+cmpconst.inc
+fe4bfdfa5310384231b99c696fe2e348
+alt_counter_stratix.inc
+3e1db420f0a6e888a1525f4eff14d5be
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+lpm_add_sub.inc
+144a73b61081a2a03554ff5acc5e8842
+aglobal111.inc
+9cc1f9de5ad83fc94dd171c3f7986bd
+lpm_decode.inc
+10da69a8bbd590d66779e7a142f73790
+lpm_compare.inc
+bbd3e8c93afb7320934629e5fb11566
+lpm_counter.inc
+c5cfeeabc5f2ab60b3453f6abbc42b41
+dffeea.inc
+f11711657cd42ee78437f4349496034
+}
+# macro_sequence
+
+# end
+# entity
+cntr_cai
+# storage
+db|First_project.(105).cnf
+db|First_project.(105).cnf
+# case_insensitive
+# source_file
+db|cntr_cai.tdf
+d0b053979cc2dba6fafedda4327fd6d
+7
+# used_port {
+sclr
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+}
+# macro_sequence
+
+# end
+# entity
+cmpr_7cc
+# storage
+db|First_project.(106).cnf
+db|First_project.(106).cnf
+# case_insensitive
+# source_file
+db|cmpr_7cc.tdf
+b4f623372ebe5ec2137a693f1181ebf
+7
+# used_port {
+datab0
+-1
+3
+dataa2
+-1
+3
+dataa1
+-1
+3
+dataa0
+-1
+3
+aeb
+-1
+3
+datab2
+-1
+2
+datab1
+-1
+2
+}
+# macro_sequence
+
+# end
+# entity
+LPM_SHIFTREG
+# storage
+db|First_project.(107).cnf
+db|First_project.(107).cnf
+# case_insensitive
+# source_file
+lpm_shiftreg.tdf
+2195e120f82d11b09c2dfec81d060f9
+7
+# user_parameter {
+LPM_WIDTH
+7
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+RIGHT
+PARAMETER_UNKNOWN
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+DEVICE_FAMILY
+Cyclone II
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+SHIFTOUT
+-1
+3
+LOAD
+-1
+3
+DATA6
+-1
+3
+DATA5
+-1
+3
+DATA4
+-1
+3
+DATA3
+-1
+3
+DATA2
+-1
+3
+DATA1
+-1
+3
+DATA0
+-1
+3
+CLOCK
+-1
+3
+ACLR
+-1
+3
+SHIFTIN
+-1
+2
+ENABLE
+-1
+2
+}
+# include_file {
+lpm_constant.inc
+97ffb7e3fef9ce9fce4eff8455d5da5
+aglobal111.inc
+9cc1f9de5ad83fc94dd171c3f7986bd
+dffeea.inc
+f11711657cd42ee78437f4349496034
+}
+# macro_sequence
+
+# end
+# entity
 First_project
 # storage
 db|First_project.(0).cnf
@@ -8006,7 +13606,7 @@ ON
 # case_sensitive
 # source_file
 first_project.v
-ec7becce7aaaf8d5a48715b322b8cc96
+6d70204410c8cedd7133c47966c89c
 8
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -8041,8 +13641,8 @@ ON
 }
 # case_sensitive
 # source_file
-pwm_channel1.v
-a6218365b43e7f4e5b6caf22db18340
+pwm.v
+a14cecf64ebbf8626880b08ebe9d69a
 8
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
