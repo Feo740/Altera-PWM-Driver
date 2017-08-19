@@ -155,7 +155,7 @@ GND+                         : 88        :        :                   :         
 GND+                         : 89        :        :                   :         : 3         :                
 GND+                         : 90        :        :                   :         : 3         :                
 GND+                         : 91        :        :                   :         : 3         :                
-test_word_received           : 92        : output : 3.3-V LVTTL       :         : 3         : N              
+RESERVED_INPUT               : 92        :        :                   :         : 3         :                
 RESERVED_INPUT               : 93        :        :                   :         : 3         :                
 RESERVED_INPUT               : 94        :        :                   :         : 3         :                
 VCCIO3                       : 95        : power  :                   : 3.3V    : 3         :                
@@ -181,7 +181,7 @@ RESERVED_INPUT               : 114       :        :                   :         
 RESERVED_INPUT               : 115       :        :                   :         : 2         :                
 VCCIO2                       : 116       : power  :                   : 3.3V    : 2         :                
 GND                          : 117       : gnd    :                   :         :           :                
-RESERVED_INPUT               : 118       :        :                   :         : 2         :                
+test_word_received           : 118       : output : 3.3-V LVTTL       :         : 2         : N              
 RESERVED_INPUT               : 119       :        :                   :         : 2         :                
 RESERVED_INPUT               : 120       :        :                   :         : 2         :                
 RESERVED_INPUT               : 121       :        :                   :         : 2         :                

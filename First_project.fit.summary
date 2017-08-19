@@ -1,16 +1,16 @@
-Fitter Status : Successful - Wed Nov 23 00:12:48 2016
+Fitter Status : Successful - Sat Aug 19 22:40:35 2017
 Quartus II 64-Bit Version : 11.1 Build 216 11/23/2011 SP 1 SJ Full Version
 Revision Name : First_project
 Top-level Entity Name : First_project
 Family : Cyclone II
 Device : EP2C5T144C8
 Timing Models : Final
-Total logic elements : 1,096 / 4,608 ( 24 % )
-    Total combinational functions : 818 / 4,608 ( 18 % )
-    Dedicated logic registers : 847 / 4,608 ( 18 % )
-Total registers : 847
+Total logic elements : 1,146 / 4,608 ( 25 % )
+    Total combinational functions : 840 / 4,608 ( 18 % )
+    Dedicated logic registers : 896 / 4,608 ( 19 % )
+Total registers : 896
 Total pins : 26 / 89 ( 29 % )
 Total virtual pins : 0
-Total memory bits : 57,344 / 119,808 ( 48 % )
+Total memory bits : 73,728 / 119,808 ( 62 % )
 Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )
 Total PLLs : 0 / 2 ( 0 % )

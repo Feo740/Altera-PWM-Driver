@@ -36,7 +36,7 @@ module First_project(input wire key0,
 	  wire clk1hz,clk25M,clk1M;
 	  frqdiv       FGD(clk50M,clk1hz,clk25M,clk1M); // важна последовательность объявления экземпляров?
 	  wire M_EN,DIR, STEP;
-	  SETPOS        STPS(key0,clk1hz,M_EN,DIR,byte_data_received);
+	  SETPOS        STPS(key0,clk1hz,M_EN,DIR,byte_data_received,byte_received);
 	  RELAY         RL(clk1hz,M_EN,STEP);
 	  wire [3:0] STEP_OUT;
 	  stepdirdriver SDRV(STEP, DIR, STEP_OUT);

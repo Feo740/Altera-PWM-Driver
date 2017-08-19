@@ -1,20 +1,29 @@
-module  SETPOS (input key0,input clk1hz,output reg M_EN,output reg DIR,input [15:0] byte_data_received);
+module  SETPOS (input key0,input clk1hz,output reg M_EN,output reg DIR,input [15:0] byte_data_received,input byte_received);
 
 reg dev_state; // 0- это init 1- это работа по установке угла
 reg [10:0] angle_target; //целевой
 reg [10:0] angle_current; //текущий
+reg [7:0] buffer4;
 
 initial begin
 	dev_state=1'b0;
 	angle_current=0;
 	angle_target=0;
+	buffer4=0;
 end
 
 
 // Для примера, полностью открыта - это примерно 2100, 2200
 always  @(posedge clk1hz)
 begin
-angle_target=(byte_data_received [7:0]) << 3;
+if (byte_received) begin
+	if(byte_data_received[15:8]== 8'b00000100) begin // проверяем признак принятого по спи байта
+	buffer4 <= byte_data_received[7:0]; 
+end
+   end
+	
+	angle_target=buffer4 << 3;
+		
    if (dev_state == 1'b0)
    begin
        if (key0==0)
@@ -42,6 +51,9 @@ angle_target=(byte_data_received [7:0]) << 3;
             M_EN=0;
        	end
 	end
+	
 	end
+
+	
 
 endmodule
