@@ -1,5 +1,5 @@
 EDA Netlist Writer report for First_project
-Sat Aug 19 22:40:39 2017
+Sun Aug 20 22:07:09 2017
 Quartus II 64-Bit Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Full Version
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sat Aug 19 22:40:39 2017 ;
+; EDA Netlist Writer Status ; Successful - Sun Aug 20 22:07:09 2017 ;
 ; Revision Name             ; First_project                         ;
 ; Top-level Entity Name     ; First_project                         ;
 ; Family                    ; Cyclone II                            ;
@@ -84,12 +84,12 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Full Version
-    Info: Processing started: Sat Aug 19 22:40:38 2017
+    Info: Processing started: Sun Aug 20 22:07:08 2017
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off First_project -c First_project
 Info (204026): Generated files "First_project.vho", "First_project_fast.vho", "First_project_vhd.sdo" and "First_project_vhd_fast.sdo" in directory "V:/Altera project/Altera-PWM-Driver/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 336 megabytes
-    Info: Processing ended: Sat Aug 19 22:40:39 2017
+    Info: Processing ended: Sun Aug 20 22:07:09 2017
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

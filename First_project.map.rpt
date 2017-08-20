@@ -1,5 +1,5 @@
 Analysis & Synthesis report for First_project
-Sat Aug 19 22:40:29 2017
+Sun Aug 20 22:06:51 2017
 Quartus II 64-Bit Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Full Version
 
 
@@ -12,20 +12,25 @@ Quartus II 64-Bit Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Full Versi
   4. Parallel Compilation
   5. Analysis & Synthesis Source Files Read
   6. Partition Status Summary
-  7. Partition Dependent Files
-  8. Parameter Settings for Inferred Entity Instance: sld_hub:auto_hub
-  9. Partition "sld_signaltap:auto_signaltap_0" Resource Utilization by Entity
+  7. Dependent File Changes for Partition Top
+  8. Partition for Top-Level Resource Utilization by Entity
+  9. State Machine - |First_project|Humidity:Hum|mstate
  10. Registers Removed During Synthesis
  11. Multiplexer Restructuring Statistics (Restructuring Performed)
- 12. Source assignments for sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram|altsyncram_qp14:auto_generated
- 13. Source assignments for sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram|altsyncram_qp14:auto_generated|altsyncram_2eq1:altsyncram1
- 14. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
- 15. Port Connectivity Checks: "frqdiv:FGD"
- 16. Port Connectivity Checks: "SPI_slave:SPI_MODULE"
- 17. SignalTap II Logic Analyzer Settings
- 18. Elapsed Time Per Partition
- 19. Analysis & Synthesis Messages
- 20. Analysis & Synthesis Suppressed Messages
+ 12. Partition Dependent Files
+ 13. Parameter Settings for Inferred Entity Instance: sld_hub:auto_hub
+ 14. Partition "sld_signaltap:auto_signaltap_0" Resource Utilization by Entity
+ 15. Registers Removed During Synthesis
+ 16. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 17. Source assignments for sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram|altsyncram_qp14:auto_generated
+ 18. Source assignments for sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram|altsyncram_qp14:auto_generated|altsyncram_2eq1:altsyncram1
+ 19. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
+ 20. Port Connectivity Checks: "frqdiv:FGD"
+ 21. Port Connectivity Checks: "SPI_slave:SPI_MODULE"
+ 22. SignalTap II Logic Analyzer Settings
+ 23. Elapsed Time Per Partition
+ 24. Analysis & Synthesis Messages
+ 25. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -51,7 +56,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Aug 19 22:40:29 2017          ;
+; Analysis & Synthesis Status        ; Successful - Sun Aug 20 22:06:51 2017          ;
 ; Quartus II 64-Bit Version          ; 11.1 Build 216 11/23/2011 SP 1 SJ Full Version ;
 ; Revision Name                      ; First_project                                  ;
 ; Top-level Entity Name              ; First_project                                  ;
@@ -240,10 +245,81 @@ applicable agreement for further details.
 +--------------------------------+-------------+-------------------------+
 ; Partition Name                 ; Synthesized ; Reason                  ;
 +--------------------------------+-------------+-------------------------+
-; Top                            ; no          ; No relevant changes     ;
-; sld_signaltap:auto_signaltap_0 ; yes         ; Dependent files changed ;
+; Top                            ; yes         ; Dependent files changed ;
+; sld_signaltap:auto_signaltap_0 ; no          ; No relevant changes     ;
 ; sld_hub:auto_hub               ; no          ; No relevant changes     ;
 +--------------------------------+-------------+-------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Dependent File Changes for Partition Top                                                                                   ;
++-------------+-----------+-------------------+----------+---------------------------------+---------------------------------+
+; Hierarchy   ; File Name ; Relative Location ; Change   ; Old                             ; New                             ;
++-------------+-----------+-------------------+----------+---------------------------------+---------------------------------+
+; SETPOS:STPS ; SETPOS.v  ; Project Directory ; Checksum ; 4187534223d1d320c55a8c3709c517b ; 5ecdd1d9279920d6093f7ea772b4782 ;
++-------------+-----------+-------------------+----------+---------------------------------+---------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition for Top-Level Resource Utilization by Entity                                                                                                                                      ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                 ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------+--------------+
+; |First_project             ; 366 (1)           ; 318 (0)      ; 0           ; 0            ; 0       ; 0         ; 1    ; 0            ; |First_project                      ; work         ;
+;    |Energy_saver:E_s|      ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|Energy_saver:E_s     ; work         ;
+;    |Humidity:Hum|          ; 109 (109)         ; 113 (113)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|Humidity:Hum         ; work         ;
+;    |PWM:p_w_m|             ; 39 (39)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|PWM:p_w_m            ; work         ;
+;    |RELAY:RL|              ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|RELAY:RL             ; work         ;
+;    |SETPOS:STPS|           ; 42 (42)           ; 30 (30)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|SETPOS:STPS          ; work         ;
+;    |SPI_slave:SPI_MODULE|  ; 54 (54)           ; 72 (72)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|SPI_slave:SPI_MODULE ; work         ;
+;    |five_sec:F_S|          ; 46 (46)           ; 24 (24)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|five_sec:F_S         ; work         ;
+;    |frqdiv:FGD|            ; 60 (60)           ; 39 (39)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|frqdiv:FGD           ; work         ;
+;    |stepdirdriver:SDRV|    ; 10 (10)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|stepdirdriver:SDRV   ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++----------------------------------------------------------------+
+; State Machine - |First_project|Humidity:Hum|mstate             ;
++------------+------------+------------+------------+------------+
+; Name       ; mstate.011 ; mstate.010 ; mstate.000 ; mstate.001 ;
++------------+------------+------------+------------+------------+
+; mstate.001 ; 0          ; 0          ; 0          ; 0          ;
+; mstate.000 ; 0          ; 0          ; 1          ; 1          ;
+; mstate.010 ; 0          ; 1          ; 0          ; 1          ;
+; mstate.011 ; 1          ; 0          ; 0          ; 1          ;
++------------+------------+------------+------------+------------+
+
+
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++---------------------------------------+----------------------------------------+
+; Register name                         ; Reason for Removal                     ;
++---------------------------------------+----------------------------------------+
+; SETPOS:STPS|angle_target[0..2]        ; Stuck at GND due to stuck port data_in ;
+; Humidity:Hum|mstate~4                 ; Lost fanout                            ;
+; Humidity:Hum|mstate~5                 ; Lost fanout                            ;
+; Humidity:Hum|mstate~6                 ; Lost fanout                            ;
+; Humidity:Hum|mstate.000               ; Lost fanout                            ;
+; Humidity:Hum|mstate.011               ; Lost fanout                            ;
+; frqdiv:FGD|z[0]                       ; Merged with PWM:p_w_m|cnt[0]           ;
+; Total Number of Removed Registers = 9 ;                                        ;
++---------------------------------------+----------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                 ;
++--------------------+-----------+---------------+----------------------+------------------------+--------------------------------------------------+----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered                                       ; Example Multiplexer Output ;
++--------------------+-----------+---------------+----------------------+------------------------+--------------------------------------------------+----------------------------+
+; 3:1                ; 39 bits   ; 78 LEs        ; 39 LEs               ; 39 LEs                 ; |First_project|SPI_slave:SPI_MODULE|HYM_send[28] ;                            ;
+; 3:1                ; 11 bits   ; 22 LEs        ; 11 LEs               ; 11 LEs                 ; |First_project|SETPOS:STPS|angle_current[3]      ;                            ;
+; 16:1               ; 4 bits    ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; |First_project|stepdirdriver:SDRV|OUT[1]         ;                            ;
+; 7:1                ; 39 bits   ; 156 LEs       ; 39 LEs               ; 117 LEs                ; |First_project|Humidity:Hum|HYM[31]              ;                            ;
+; 8:1                ; 6 bits    ; 30 LEs        ; 6 LEs                ; 24 LEs                 ; |First_project|Humidity:Hum|id_gorb[2]           ;                            ;
+; 12:1               ; 16 bits   ; 128 LEs       ; 16 LEs               ; 112 LEs                ; |First_project|Humidity:Hum|shet[10]             ;                            ;
++--------------------+-----------+---------------+----------------------+------------------------+--------------------------------------------------+----------------------------+
 
 
 +----------------------------------------------------------------------------------+
@@ -252,13 +328,13 @@ applicable agreement for further details.
 ; File            ; Location          ; Library ; Checksum                         ;
 +-----------------+-------------------+---------+----------------------------------+
 ; Energy_saver.v  ; Project Directory ; work    ; ff267afa7b831b8ba47eb7cb959695   ;
-; First_project.v ; Project Directory ; work    ; ffcfeee9ab294aac5c56dbbff6e9f654 ;
+; First_project.v ; Project Directory ; work    ; e335a219ba897db7f730aa8453c9a5   ;
 ; five_sec.v      ; Project Directory ; work    ; 5bc3c08982d63dfd75534d5704cbb52  ;
 ; frqdiv.v        ; Project Directory ; work    ; 318f5b85656822d8a4576744723e2383 ;
 ; Humidity.v      ; Project Directory ; work    ; acf7584e794e3972e66a5af5a075be12 ;
 ; PWM.v           ; Project Directory ; work    ; daf53be52b3187fc5656a47c0f020a4  ;
 ; relay.v         ; Project Directory ; work    ; 8513e07ca777788bd6a2ea94ac377f   ;
-; SETPOS.v        ; Project Directory ; work    ; d2c43df38c5151d5d6a86563c6e5df   ;
+; SETPOS.v        ; Project Directory ; work    ; 5ecdd1d9279920d6093f7ea772b4782  ;
 ; spi_slave.v     ; Project Directory ; work    ; 5024137ba8109e6499117e37af41584  ;
 ; stepdirdriver.v ; Project Directory ; work    ; d0d2fda85f13b6924fa262e5eb6551   ;
 +-----------------+-------------------+---------+----------------------------------+
@@ -289,9 +365,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                           ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                         ; Library Name ;
 +------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |First_project                                                                                       ; 368 (0)           ; 513 (0)      ; 73728       ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project                                                                                                                                                                                                                                                                                              ; work         ;
-;    |sld_signaltap:auto_signaltap_0|                                                                  ; 368 (1)           ; 513 (0)      ; 73728       ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|sld_signaltap:auto_signaltap_0                                                                                                                                                                                                                                                               ; work         ;
-;       |sld_signaltap_impl:sld_signaltap_body|                                                        ; 367 (22)          ; 513 (93)     ; 73728       ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body                                                                                                                                                                                                                         ; work         ;
+; |First_project                                                                                       ; 369 (0)           ; 513 (0)      ; 73728       ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project                                                                                                                                                                                                                                                                                              ; work         ;
+;    |sld_signaltap:auto_signaltap_0|                                                                  ; 369 (1)           ; 513 (0)      ; 73728       ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|sld_signaltap:auto_signaltap_0                                                                                                                                                                                                                                                               ; work         ;
+;       |sld_signaltap_impl:sld_signaltap_body|                                                        ; 368 (22)          ; 513 (93)     ; 73728       ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body                                                                                                                                                                                                                         ; work         ;
 ;          |altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|                            ; 29 (0)            ; 82 (82)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem                                                                                                                                                          ; work         ;
 ;             |lpm_decode:wdecoder|                                                                    ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder                                                                                                                                      ; work         ;
 ;                |decode_rqf:auto_generated|                                                           ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder|decode_rqf:auto_generated                                                                                                            ; work         ;
@@ -355,7 +431,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;             |lpm_shiftreg:info_data_shift_out|                                                       ; 27 (27)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_shiftreg:info_data_shift_out                                                                                                       ; work         ;
 ;             |lpm_shiftreg:ram_data_shift_out|                                                        ; 9 (9)             ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_shiftreg:ram_data_shift_out                                                                                                        ; work         ;
 ;             |lpm_shiftreg:status_data_shift_out|                                                     ; 27 (27)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_shiftreg:status_data_shift_out                                                                                                     ; work         ;
-;          |sld_rom_sr:crc_rom_sr|                                                                     ; 19 (19)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_rom_sr:crc_rom_sr                                                                                                                                                                                                   ; work         ;
+;          |sld_rom_sr:crc_rom_sr|                                                                     ; 20 (20)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |First_project|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_rom_sr:crc_rom_sr                                                                                                                                                                                                   ; work         ;
 +------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -459,7 +535,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; sld_trigger_bits                                ; 9                                                                                                            ; Untyped        ;
 ; SLD_NODE_CRC_BITS                               ; 32                                                                                                           ; Signed Integer ;
 ; sld_node_crc_hiword                             ; 56149                                                                                                        ; Untyped        ;
-; sld_node_crc_loword                             ; 20282                                                                                                        ; Untyped        ;
+; sld_node_crc_loword                             ; 48206                                                                                                        ; Untyped        ;
 ; SLD_INCREMENTAL_ROUTING                         ; 0                                                                                                            ; Signed Integer ;
 ; sld_sample_depth                                ; 8192                                                                                                         ; Untyped        ;
 ; sld_segment_size                                ; 8192                                                                                                         ; Untyped        ;
@@ -528,13 +604,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+------------------+---------------------+------------------+--------------+----------+------------------------+----------------------+--------------------+-----------------------------+-----------------+------------------+--------------------------+
 
 
-+-----------------------------------------------+
-; Elapsed Time Per Partition                    ;
-+--------------------------------+--------------+
-; Partition Name                 ; Elapsed Time ;
-+--------------------------------+--------------+
-; sld_signaltap:auto_signaltap_0 ; 00:00:01     ;
-+--------------------------------+--------------+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:02     ;
++----------------+--------------+
 
 
 +-------------------------------+
@@ -543,7 +619,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 11.1 Build 216 11/23/2011 Service Pack 1 SJ Full Version
-    Info: Processing started: Sat Aug 19 22:40:24 2017
+    Info: Processing started: Sun Aug 20 22:06:40 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off First_project -c First_project
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file pwm.v
@@ -566,7 +642,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file humidit
     Info (12023): Found entity 1: Humidity
 Info (12021): Found 1 design units, including 1 entities, in source file five_sec.v
     Info (12023): Found entity 1: five_sec
-Warning (10236): Verilog HDL Implicit Net warning at First_project.v(35): created implicit net for "byte_received"
 Info (12127): Elaborating entity "First_project" for the top level hierarchy
 Info (12128): Elaborating entity "SPI_slave" for hierarchy "SPI_slave:SPI_MODULE"
 Warning (10034): Output port "LED" at spi_slave.v(6) has no driver
@@ -613,24 +688,36 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr
     Info (12023): Found entity 1: cmpr_5cc
 Info (12033): Analysis and Synthesis generated SignalTap II or debug node instance "auto_signaltap_0"
 Info (12205): 1 design partition requires Analysis and Synthesis
-    Info (12211): Partition "sld_signaltap:auto_signaltap_0" requires synthesis because there were changes to its dependent source files
+    Info (12211): Partition "Top" requires synthesis because there were changes to its dependent source files
 Info (12208): 2 design partitions do not require synthesis
-    Info (12229): Partition "Top" does not require synthesis because there were no relevant design changes
+    Info (12229): Partition "sld_signaltap:auto_signaltap_0" does not require synthesis because there were no relevant design changes
     Info (12229): Partition "sld_hub:auto_hub" does not require synthesis because there were no relevant design changes
 Info (13005): Duplicate registers merged to single register
-Info (281019): Starting Logic Optimization and Technology Mapping for Partition sld_signaltap:auto_signaltap_0
-Info (13000): Registers with preset signals will power-up high
-Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
-Info (21057): Implemented 793 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 75 input pins
-    Info (21059): Implemented 28 output pins
-    Info (21061): Implemented 672 logic cells
-    Info (21064): Implemented 18 RAM segments
+Info (281020): Starting Logic Optimization and Technology Mapping for Top Partition
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "PWM_out3" is stuck at GND
+    Warning (13410): Pin "PWM_out4" is stuck at GND
+    Warning (13410): Pin "PWM_out5" is stuck at GND
+    Warning (13410): Pin "PWM_out6" is stuck at GND
+    Warning (13410): Pin "PWM_out7" is stuck at GND
+    Warning (13410): Pin "PWM_out8" is stuck at GND
+    Warning (13410): Pin "PWM_out9" is stuck at GND
+Info (17049): 5 registers lost all their fanouts during netlist optimizations. The first 5 are displayed below.
+    Info (17050): Register "Humidity:Hum|mstate~4" lost all its fanouts during netlist optimizations.
+    Info (17050): Register "Humidity:Hum|mstate~5" lost all its fanouts during netlist optimizations.
+    Info (17050): Register "Humidity:Hum|mstate~6" lost all its fanouts during netlist optimizations.
+    Info (17050): Register "Humidity:Hum|mstate.000" lost all its fanouts during netlist optimizations.
+    Info (17050): Register "Humidity:Hum|mstate.011" lost all its fanouts during netlist optimizations.
+Info (21057): Implemented 505 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 5 input pins
+    Info (21059): Implemented 21 output pins
+    Info (21060): Implemented 2 bidirectional pins
+    Info (21061): Implemented 477 logic cells
 Info (144001): Generated suppressed messages file V:/Altera project/Altera-PWM-Driver/First_project.map.smsg
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 9 warnings
-    Info: Peak virtual memory: 450 megabytes
-    Info: Processing ended: Sat Aug 19 22:40:29 2017
-    Info: Elapsed time: 00:00:05
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 16 warnings
+    Info: Peak virtual memory: 448 megabytes
+    Info: Processing ended: Sun Aug 20 22:06:51 2017
+    Info: Elapsed time: 00:00:11
     Info: Total CPU time (on all processors): 00:00:05
 
 
