@@ -3,13 +3,6 @@ module PWM(
     input [15:0]byte_data_received,
     output PWM_out,
 	 output PWM_out2, //добавляем второй канал
-	 output PWM_out3, //добавляем третий канал
-    output PWM_out4, //добавляем четвертый канал
-	 output PWM_out5, //добавляем пятый канал
-	 output PWM_out6, //добавляем шестой канал
-	 output PWM_out7, //добавляем седьмой канал
-	 output PWM_out8, //добавляем восьмой канал
-	 output PWM_out9, //добавляем девятый канал
 	 output PWM_out_vent, //добавляем десятый канал вентиляции вытяжки
 	 input byte_received // флаг принятия байта по спи
 	 	 );
